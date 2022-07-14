@@ -1,8 +1,8 @@
 import React from "react"
 import HomeIcon from '@mui/icons-material/Home';
 import PersonIcon from '@mui/icons-material/Person';
-import faceImg from "../assets/logo.png"
 import GitHubIcon from '@mui/icons-material/GitHub';
+import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact';
 import CodeIcon from '@mui/icons-material/Code';
 import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
 import { Link } from 'react-router-dom'
@@ -42,7 +42,7 @@ function Navbar() {
                     </li>
                     <li className="nav-item">
                     <Link to="/contact" className="nav-link">
-                        <HomeIcon className="icon"/>
+                        <ConnectWithoutContactIcon className="icon"/>
                         <span className="link-text">Contato</span>
                     </Link>
                     </li>

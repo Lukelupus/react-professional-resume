@@ -1,6 +1,6 @@
 :root {
     font-size: 16px;
-    font-family: 'Open Sans';
+    font-family: 'Cormorant Garamond', serif;
     --text-primary: #BCBAB8;
     --text-secondary: #F9F9F9;
     --bg-primary: #625757;
@@ -16,7 +16,7 @@ body {
 }
 
 main {
-    margin-left: 5rem;
+    margin-left: 5.5rem;
     padding: 1rem;
 }
 
@@ -104,6 +104,21 @@ main {
     margin: 0 2rem 0 0;
     text-align: left;
  
+}
+
+/* Home Presentation Card */
+
+.home-page {
+    display: flex;
+    gap: 2rem;
+}
+
+/* Butão Whatsapp */
+
+.whatsapp-float {
+    position: flex;
+    width: 60px;
+    height: 60px;
 }
 
 /* Design Responsivo */
