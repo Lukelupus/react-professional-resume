@@ -40,9 +40,25 @@ body {
     
 }
 
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--bg-secondary);
+}
+
+body.home .site-footer {
+    display: none;
+}
+
 main {
     margin-left: 4rem;
-    padding: 1rem;
+
 }
 
 /* Navbar */
@@ -180,6 +196,7 @@ main {
     opacity: 0.4;
     z-index: -999;
     border: transparent;
+    border-image: 1px var(--transition-speed);
  
 }
 
@@ -233,6 +250,22 @@ main {
         justify-content: center;
     }
 
+    .home-page  {
+        left: 15%;
+        top: 30%;
+    }
+    .whatsapp-icon {
+        margin-top: 10px;
+    }
+    
+      .whatsapp_float {
+        width: 40px;
+        height: 40px;
+        top: 30px;
+        right: 10px;
+        font-size: 22px;
+    }
+
 }
 
 /* Telas de grandes: */
@@ -256,20 +289,3 @@ main {
 
 
 }
-
-@media only screen and (max-widt: 600px) {
-
-       
-   .whatsapp-icon {
-    margin-top: 10px;
-}
-
-  .whatsapp_float {
-    width: 40px;
-    height: 40px;
-    top: 30px;
-    right: 10px;
-    font-size: 22px;
-}
-}
-
