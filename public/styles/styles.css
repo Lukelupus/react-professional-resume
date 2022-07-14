@@ -8,12 +8,19 @@
     --transition-speed: 600ms;
 }
 
+@keyframes landingPageAnimation {
+    100% {
+        opacity: 1;
+        }
+}
+
 body {
     color: white;
     background-color: black;
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    text-align: center;
 
     
     
@@ -113,12 +120,34 @@ main {
 /* Home Presentation Card */
 
 .home-page {
-    position: absolute;
+    position: relative;
     display: flex;
     gap: 2rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    top: 50%;
+   
+
+}
+
+.lucas-img {
+    width: 130px;
+    height: 130px;
+    margin: 1rem 0 0.25rem;
+    opacity: 0;
+    animation: landingPageAnimation 2s ease-in forwards;
+    animation-duration: 700ms;
+
+}
+
+.landing-page-img {
+    position: fixed;
+    opacity: calc(0.6);
+    height: fit-content;
+    width: fit-content;
+    width: 100px;
+    height: 100px;
 }
 
 /* Butão Whatsapp */
@@ -193,5 +222,21 @@ main {
     }
 
 
+}
+
+@media only screen and (max-widt: 600px) {
+
+       
+   .whatsapp-icon {
+    margin-top: 10px;
+}
+
+  .whatsapp_float {
+    width: 40px;
+    height: 40px;
+    top: 30px;
+    right: 10px;
+    font-size: 22px;
+}
 }
 
