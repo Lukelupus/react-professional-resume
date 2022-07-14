@@ -116,9 +116,23 @@ main {
 /* Butão Whatsapp */
 
 .whatsapp-float {
-    position: flex;
-    width: 60px;
-    height: 60px;
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    transform: scale(1.8);
+}
+
+.whatsapp-icon {
+    margin-top: 3px;
 }
 
 /* Design Responsivo */
