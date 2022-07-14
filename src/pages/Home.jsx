@@ -9,7 +9,7 @@ function Home() {
                 <h3 className="home-subtitle">Desenvolvedor de Web</h3>
             </div>
         </div>
-        <img className="landing-page-img" alt="scotland-street-art" src="images/white-blue-green.jpeg"></img>
+        <img className="landing-page-img" alt="scotland-street-art" src="images/white-blue.jpeg"></img>
             </>)
 }
 
