@@ -4,6 +4,8 @@ import PersonIcon from '@mui/icons-material/Person';
 import faceImg from "../assets/logo.png"
 import GitHubIcon from '@mui/icons-material/GitHub';
 import CodeIcon from '@mui/icons-material/Code';
+import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
+import { Link } from 'react-router-dom'
 
 
 
@@ -15,34 +17,34 @@ function Navbar() {
             <nav className="navbar">
                 <ul className="navbar-nav">
                     <li className="logo">
-                        <a className="nav-link" href="/">
-                            <img className="icon" src={faceImg} alt="Lucas Developer"></img>
-                            <span className="link-text logo-text">Lucas M. Botelho</span>
-                        </a>
+                        <Link className="nav-link" to="/">
+                            <KeyboardDoubleArrowRightIcon className="icon logo-icon" />
+                            <span className="logo-text link-text">Lucas Botelho</span>
+                        </Link>
                     </li>
                     <li className="nav-item">
-                    <a href="/" className="nav-link">
-                        <HomeIcon className="icon"/>
-                        <span className="link-text">Home</span>
-                    </a>
-                    </li>
-                    <li className="nav-item">
-                    <a href="/" className="nav-link">
+                    <Link to="/profile" className="nav-link">
                        <PersonIcon className="icon"/>
                         <span className="link-text">Perfil</span>
-                    </a>
+                    </Link>
                     </li>
                     <li className="nav-item">
-                    <a href="/" className="nav-link">
+                    <Link to="/skills" className="nav-link">
                         <CodeIcon className="icon" />
                          <span className="link-text">Habilidades</span>
-                    </a>
+                    </Link>
                     </li>
                     <li className="nav-item">
-                    <a href="/" className="nav-link">
+                    <Link to="/portfolio" className="nav-link">
                         <GitHubIcon className="icon" />
                         <span className="link-text">Portfólio</span>
-                    </a>
+                    </Link>
+                    </li>
+                    <li className="nav-item">
+                    <Link to="/contact" className="nav-link">
+                        <HomeIcon className="icon"/>
+                        <span className="link-text">Contato</span>
+                    </Link>
                     </li>
                 </ul>
             </nav>

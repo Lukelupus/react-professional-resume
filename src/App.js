@@ -5,18 +5,22 @@ import Home from "./pages/Home"
 import Portfolio from "./pages/Portfolio";
 import Profile from "./pages/Profile";
 import Skills from "./pages/Skills";
+import Contact from "./pages/Contact";
 
 
 function App() {
   return (<>
     
       <Navbar />
+      <main>
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/portfolio" element={<Portfolio />}/>
         <Route path="/profile" element={<Profile/>}/>
         <Route path="/skills" element={<Skills />}/>
+        <Route path="/skills" element={<Contact />}/>
       </Routes>
+      </main>
       
     
     </>);
