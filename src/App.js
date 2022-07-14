@@ -10,15 +10,18 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 
 function App() {
+
+
+
   return (<>
     
       <Navbar />
       <main>
         <Routes>
-          <Route path="/" element={<Home />}/>
-          <Route path="/portfolio" element={<Portfolio />}/>
+          <Route path="/" element={<Home/>}/>
           <Route path="/profile" element={<Profile/>}/>
           <Route path="/skills" element={<Skills />}/>
+          <Route path="/portfolio" element={<Portfolio />}/>
           <Route path="/skills" element={<Contact />}/>
         </Routes>
         <a 

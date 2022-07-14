@@ -3,7 +3,6 @@ import React from "react";
 function Profile() {
     return (<>
           <div className="home-page">
-            <img src="images/merussia.png" alt="fullstack web developer"></img>
             <div className="home-presentation-card">
                 <h1 className="home-title">Sobre</h1>
                 <hr></hr>
