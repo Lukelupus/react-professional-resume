@@ -2,6 +2,8 @@ import React from "react"
 import HomeIcon from '@mui/icons-material/Home';
 import PersonIcon from '@mui/icons-material/Person';
 import faceImg from "../assets/logo.png"
+import GitHubIcon from '@mui/icons-material/GitHub';
+import CodeIcon from '@mui/icons-material/Code';
 
 
 
@@ -32,14 +34,14 @@ function Navbar() {
                     </li>
                     <li className="nav-item">
                     <a href="/" className="nav-link">
-
-                         <span className="link-text">Blog</span>
+                        <CodeIcon className="icon" />
+                         <span className="link-text">Habilidades</span>
                     </a>
                     </li>
                     <li className="nav-item">
                     <a href="/" className="nav-link">
-                       
-                        <span className="link-text">Settings</span>
+                        <GitHubIcon className="icon" />
+                        <span className="link-text">Portfólio</span>
                     </a>
                     </li>
                 </ul>
