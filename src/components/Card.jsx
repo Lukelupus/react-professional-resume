@@ -11,8 +11,8 @@ function Card(props) {
                         <div className="form-entry">
                             <h2 className="card-title">{props.title}</h2>
                             <p className="card-content">{props.content}</p>
-                            <h3 className="card-price">R${props.price}</h3>
-                            <button className="card-btn">Comprar</button>
+                            <h3 className="card-price">{props.price}</h3>
+                            
                         
                         </div>
                     </div> 
