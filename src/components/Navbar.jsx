@@ -21,9 +21,9 @@ function Navbar() {
                             <span className="logo-text link-text">Lucas Botelho</span>
                         </Link>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item profile-icon-mobile">
                     <Link to="/profile" className="nav-link">
-                       <PersonIcon className="icon"/>
+                       <PersonIcon className="icon "/>
                         <span className="link-text">Perfil</span>
                     </Link>
                     </li>

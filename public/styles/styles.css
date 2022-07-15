@@ -153,6 +153,10 @@ h1 {
 
 }
 
+.landing-profile {
+    color: var(--bg-secondary);
+}
+
 .home-presentation-card {
     opacity: 0;
     animation: landingPageAnimation 3s ease forwards;
@@ -167,8 +171,8 @@ h1 {
 
 
 .lucas-img {
-    width: 200px;
-    height: 200px;
+    width: 120px;
+    height: 120px;
     margin: 2rem 0 0 0;
     opacity: 0;
     animation: landingPageAnimation 3s ease forwards;
@@ -183,10 +187,7 @@ h1 {
 }
 
 .landing-page-img {
-    margin: 0;
-    height: fit-content;
-    width: 100%;
-    object-fit: contain;
+   
     opacity: 0.4;
     z-index: -999;
     border: transparent;
@@ -194,26 +195,31 @@ h1 {
  
 }
 
-/* Botão Whatsapp */
+/* Botão Redes Sociais */
 
-.whatsapp-float {
-    position: fixed;
-    width: 40px;
-    height: 40px;
-    bottom: 40px;
-    right: 40px;
-    background-color: #25d366;
-    color: #FFF;
-    border-radius: 30px;
-    text-align: center;
-    font-size: 15px;
-    box-shadow: 2px 2px 3px #999;
-    z-index: 100;
-    transform: scale(1.8);
+.social {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
 }
 
-.whatsapp-icon {
+
+.float {
+   
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    z-index: 100;
+    transform: scale(1.8);
+    margin: 0;
+    padding: 0;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
     margin-top: 5px;
+    border-radius: 50px;
 }
 
 /* Perfil */
@@ -462,6 +468,11 @@ h1 {
     100% {left:20%;}
   }
 
+@keyframes mobileIcon {
+    0%   {background-color: black;}
+    100% {background-color: var(--bg-secondary);}
+  }
+
 
 /* Design Responsivo */
 
@@ -472,12 +483,23 @@ h1 {
     main {
         margin:0
     }
+    .profile-icon-mobile {
+        animation: mobileIcon 1s ease forwards;
+        animation-delay: 3s;
+    }
 
     .navbar {
         bottom: 0;
         width: 100vw;
         height: 5rem;
     }
+
+   .landing-page-img {
+    margin: 0;
+    height: fit-content;
+    width: 100%;
+    object-fit: contain;
+   } 
 
     .logo {
         display: none;
@@ -490,13 +512,18 @@ h1 {
     .nav-link {
         justify-content: center;
     }
-    .lucas-img {
-        margin-left: 2rem;
-        
-    }
+
     .home-page  {
-        left: 15%;
-        top: 30%;
+        left: 12%;
+        top: 15%;
+    }
+
+    .home-title {
+        font-size: 36px;
+    }
+    .home-subtitle {
+        margin: 0;
+        font-size: 22px;
     }
 
     .profile-img {
@@ -533,17 +560,6 @@ h1 {
         margin-left: 15%;
     }
 
-    .whatsapp-icon {
-       margin-bottom: 10px;
-    }
-    
-      .whatsapp_float {
-        width: 40px;
-        height: 40px;
-        right: 10px;
-        font-size: 22px;
-    }
-
     .skills {
         display: flex;
         flex-direction: column;
@@ -554,6 +570,16 @@ h1 {
         margin-bottom: 0;
     }
 
+    .wrapper {
+        position: absolute;
+        margin-top: 25rem;
+        opacity: 0;
+        animation: landingPageAnimation 3s ease forwards;
+        animation-delay: 2.5s;
+        animation-duration: 1000ms;
+        
+    }
+
   
 
 
@@ -562,7 +588,22 @@ h1 {
 /* Telas de grandes: */
 
 @media only screen and (min-width: 600px) {
-
+    .landing-page-img {
+        width: 100%;
+        height: 50vh;
+    }
+    .home-page  {
+        left: 35%;
+        top: 15%;
+    }
+    .home-subtitle {
+        margin: 0 0 2rem;
+        font-size: 22px;
+    }
+    .home-title {
+        margin: 0;
+        font-size: 48px;
+    }
     .navbar {
         top: 0;
         width: 5rem;
@@ -589,17 +630,20 @@ h1 {
     }
     .wrapper {
         grid-template-columns: repeat(auto-fit, minmax(14rem, 16rem));
+        
+
     }
 
     .card {
         flex-direction: column;
         text-align: center;
-        min-width: 14rem;
+        min-width: 4rem;
+        margin-top: 4rem;
     }
 
     .card-img {
         width: 100%;
-        height: 12rem;
+        height: 3rem;
     }
 
     
