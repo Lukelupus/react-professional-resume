@@ -3,44 +3,47 @@ import React from "react";
 function Skills() {
     return (<>
         <div className="skill-page">
-            <h1>Habilidades</h1>
+            <h1 className="skill-heading">Habilidades</h1>
             <div className="wrapper">
             <div className="skills-card">
                 <div className="skills">
                     <ul className="skill-subtopic">
-                        <h1 className="frontend">Front-End</h1>
-                        <li className="skill-item">
-                         <img className="skill-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react"    />
-                             <span className="skill-text"> React</span>
-                        </li>
-                       
-                        <li className="skill-item">
-                         <img className="skill-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap"/>
-                              <span className="skill-text">Bootstrap</span>
-                        </li>
-                        <li className="skill-item">
-                         <img className="skill-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5"    />
-                              <span className="skill-text">HTML5</span>
-                        </li>
-                        <li className="skill-item">
-                         <img className="skill-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3"    />
-                              <span className="skill-text">CSS3</span>
-                        </li>
-                        <li className="skill-item">
-                         <img className="skill-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript"    />
-                              <span className="skill-text">JavaScript</span>
-                        </li>
+                        <div className="skill-column">
+                            <h1 className="frontend">Front-End</h1>
+                            <li className="skill-item">
+                            <img className="skill-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react"    />
+                                <span className="skill-text"> React</span>
+                            </li>
+                            <li className="skill-item">
+                            <img className="skill-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap"/>
+                                <span className="skill-text">Bootstrap</span>
+                            </li>
+                            <li className="skill-item">
+                            <img className="skill-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5"    />
+                                <span className="skill-text">HTML5</span>
+                            </li>
+                            <li className="skill-item">
+                            <img className="skill-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3"    />
+                                <span className="skill-text">CSS3</span>
+                            </li>
+                            <li className="skill-item">
+                            <img className="skill-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript"    />
+                                <span className="skill-text">JavaScript</span>
+                            </li>
+                        </div>
                     </ul>
                     <ul className="skill-subtopic">
-                    <h1 className="backend">Backend-End</h1>
-                        <li className="skill-item">
-                         <img className="skill-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs"    />
-                              <span className="skill-text">Node</span>
-                        </li>
-                        <li className="skill-item">
-                         <img className="skill-icon" src="images/express.png" alt="express"    />
-                              <span className="skill-text">Express</span>
-                        </li>
+                    <div className="skill-column">
+                        <h1 className="backend">Backend-End</h1>
+                            <li className="skill-item">
+                            <img className="skill-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs"    />
+                                <span className="skill-text">Node</span>
+                            </li>
+                            <li className="skill-item">
+                            <img className="skill-icon" src="images/express.png" alt="express"    />
+                                <span className="skill-text">Express</span>
+                            </li>
+                    </div>
                     </ul>
                     <ul className="skill-subtopic">
                     <h1 className="tools">Ferramentas</h1>
