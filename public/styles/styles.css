@@ -236,16 +236,11 @@ h1 {
     width: 200px;
     height: 200px;
     margin: 2rem 1rem 0 0;
-    animation: profileImgLeft ease 3s forwards;
-    animation-delay: 1s;
-    animation-duration: 1200ms;
     border-radius: 50%;
     outline: 3px solid transparent;
     outline-color: var(--bg-secondary);
     color: white;
     position: absolute;
-    left: 46.70%;
-    top: 20%;
     z-index: 999;
 }
 
@@ -261,7 +256,7 @@ h1 {
     font-size: 60px;
     opacity: 0;
     animation: landingPageAnimation 3s ease forwards;
-    animation-delay: 2s;
+    animation-delay: 1.5s;
     animation-duration: 1000ms;
     color: var(--text-primary);
 }
@@ -272,7 +267,7 @@ h1 {
     font-size: 44px;
     opacity: 0;
     animation: landingPageAnimation 3s ease forwards;
-    animation-delay: 2.5s;
+    animation-delay: 2s;
     animation-duration: 1000ms;
 }
 
@@ -284,7 +279,7 @@ h1 {
     opacity: 0;
     margin-left: 27.5%;
     animation: landingPageAnimation 3s ease forwards;
-    animation-delay: 3s;
+    animation-delay: 2.5s;
     animation-duration: 1000ms;
 }
 
@@ -304,7 +299,7 @@ h1 {
 .profile-page .wrapper {
     opacity: 0;
     animation: landingPageAnimation 3s ease forwards;
-    animation-delay: 4s;
+    animation-delay: 3s;
     animation-duration: 1000ms;
 
 }
@@ -495,11 +490,49 @@ h1 {
     .nav-link {
         justify-content: center;
     }
-
+    .lucas-img {
+        margin-left: 2rem;
+        
+    }
     .home-page  {
         left: 15%;
         top: 30%;
     }
+
+    .profile-img {
+       
+        left: 30%;
+        top: 30%;
+    }
+    .profile-page {
+       margin: 0;
+       padding: 0 1rem 0 0;
+
+    }
+
+    .profile-description {
+        font-size: 20px;
+        justify-content: left;
+        margin-top: 60%;
+    }
+    .profile-content {
+        width:90%;
+        margin-left: 10px;
+        padding-top: 10px;
+    }
+    .profile-title {
+        margin: 0;
+        padding: 0;
+        line-height: 1.4;
+    }
+    .profile-subtitle {
+        margin: 0;
+    }
+
+    .profile-subtitle-service {
+        margin-left: 15%;
+    }
+
     .whatsapp-icon {
        margin-bottom: 10px;
     }
@@ -543,6 +576,16 @@ h1 {
     .navbar:hover .link-text {
         display: block;
         transition: opacity var(--transition-speed);
+    }
+    .profile-img {
+        width: 200px;
+        height: 200px;
+        margin: 2rem 1rem 0 0;
+        animation: profileImgLeft ease 3s forwards;
+        animation-delay: 1s;
+        animation-duration: 1200ms;
+        left: 46.70%;
+        top: 20%;
     }
     .wrapper {
         grid-template-columns: repeat(auto-fit, minmax(14rem, 16rem));
