@@ -46,6 +46,10 @@ main {
 
 }
 
+h1 {
+    color: var(--bg-secondary);
+}
+
 /* Navbar */
 
 .navbar {
@@ -297,6 +301,70 @@ main {
 
 }
 
+.profile-page .wrapper {
+    opacity: 0;
+    animation: landingPageAnimation 3s ease forwards;
+    animation-delay: 4s;
+    animation-duration: 1000ms;
+
+}
+
+
+
+/* Skills */
+
+.skills-card {
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: center;
+    gap: 2rem;
+ 
+  
+    
+}
+
+.skill-subtopic {
+    list-style: none;
+}
+
+.skill-subtopic h1 {
+    font-size: 24px;
+}
+
+.skill-item {
+    justify-content: left;
+    align-items: left;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.skill-icon {
+    min-width: 2rem;
+    margin: 0 1.5rem;
+    height: 40px;
+    width: 40px;
+
+}
+
+.skill-text {
+    margin: 0;
+    font-size: 22px;
+
+}
+
+.frontend {
+    animation-delay: 1s;
+}
+
 
 
 /* Cards */
@@ -307,11 +375,7 @@ main {
     gap: 4rem;
     grid-template-columns: 1fr;
     justify-content: center;
-    opacity: 0;
-    animation: landingPageAnimation 3s ease forwards;
-    animation-delay: 4s;
-    animation-duration: 1000ms;
-
+  
 }
 
 .card {
