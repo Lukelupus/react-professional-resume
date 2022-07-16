@@ -1,6 +1,6 @@
 import React from "react"
 import PersonIcon from '@mui/icons-material/Person';
-import GitHubIcon from '@mui/icons-material/GitHub';
+import PreviewIcon from '@mui/icons-material/Preview';
 import CodeIcon from '@mui/icons-material/Code';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
@@ -35,8 +35,8 @@ function Navbar() {
                     </li>
                     <li className="nav-item">
                     <Link to="/portfolio" className="nav-link">
-                        <GitHubIcon className="icon" />
-                        <span className="link-text">Portfólio</span>
+                        <PreviewIcon className="icon" />
+                        <span className="link-text">Serviços</span>
                     </Link>
                     </li>
                     <li className="nav-item">

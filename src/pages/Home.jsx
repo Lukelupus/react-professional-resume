@@ -9,8 +9,8 @@ function Home() {
             <div className="home-presentation-card">
                 <h1 className="home-title">Lucas Moreira Botelho</h1>
                 <h3 className="home-subtitle">Desenvolvedor</h3>
-                <p className="home-text">Ei, que bom ver você por aqui!</p>
-                <p className="home-text">Quer criar seu site pessoal, empresarial ou página de aterrisagem? Então clica na aba de serviços! Mas se você só quer conhecer mais sobre mim ou é recrutador,clica no meu <Link to="/profile" className="landing-profile">perfil</Link> ou me dê um "Oi" em uma das minhas redes sociais abaixo! Te vejo lá!</p>
+                <p className="home-text first">Quer criar seu site pessoal, empresarial ou página de aterrisagem? Clica na minha aba de serviços!</p>
+                <p className="home-text second">Mas se você só quer conhecer mais sobre mim, clica no meu <Link to="/profile" className="landing-profile">perfil</Link> ou em uma das minhas redes sociais abaixo! Te vejo lá!</p>
                 <div className="social">
                     <a 
                         className="float"
