@@ -510,6 +510,11 @@ a {
     100% {left:20%;}
   }
 
+  @keyframes profileImgMobile {
+    0%   {left: 36%;}
+    100% {left:10%;}
+  }
+
 @keyframes mobileIcon {
     0%   {background-color: black;}
     100% {background-color: var(--bg-secondary);}
@@ -571,14 +576,27 @@ a {
     }
 
     .profile-img {
-       
-        left: 30%;
-        top: 30%;
+        width: 120px;
+        height: 120px;
+        left: 36%;
+        top: 2%;
+        animation: profileImgMobile 1s ease-in forwards;
+        animation-delay: 1s;
+        animation-duration: 500ms;
+
     }
     .profile-page {
        margin: 0;
        padding: 0 1rem 0 0;
 
+    }
+
+
+    .profile-title {
+        font-size: 40px;
+        width: 50%;
+        margin-left: 10rem;
+        line-height: 1.2;
     }
 
     .profile-description {
@@ -591,11 +609,7 @@ a {
         margin-left: 10px;
         padding-top: 10px;
     }
-    .profile-title {
-        margin: 0;
-        padding: 0;
-        line-height: 1.4;
-    }
+  
     .profile-subtitle {
         margin: 0;
     }
