@@ -1,6 +1,6 @@
 :root {
     font-size: 16px;
-    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Montserrat', sans-serif;
     --text-primary: #BCBAB8;
     --text-secondary: #F9F9F9;
     --bg-primary: black;
@@ -48,6 +48,16 @@ main {
 
 h1 {
     color: var(--bg-secondary);
+    margin: 0;
+}
+
+p {
+    margin: 0;
+
+}
+
+a {
+    text-decoration: none;
 }
 
 /* Navbar */
@@ -142,13 +152,13 @@ h1 {
 .home-page {
     position: absolute;
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     z-index: 999;
-    top: 20%;
-    left: 40%;
+    top: 2.5%;
+    
    
 
 }
@@ -158,15 +168,32 @@ h1 {
 }
 
 .home-presentation-card {
-    opacity: 0;
-    animation: landingPageAnimation 3s ease forwards;
-    animation-delay: 2s;
-    animation-duration: 1200ms;
+    
+    width: 80%;
+    margin-top: 0;
     
 }
 
 .home-title {
     margin-top: 0;
+    opacity: 0;
+    animation: landingPageAnimation 3s ease forwards;
+    animation-delay: 1.5s;
+    animation-duration: 1200ms;
+}
+
+.home-subtitle {
+    opacity: 0;
+    animation: landingPageAnimation 3s ease forwards;
+    animation-delay: 2s;
+    animation-duration: 1200ms;
+}
+
+.home-text {
+    opacity: 0;
+   
+    animation-delay: 2.5s;
+    animation-duration: 1200ms;
 }
 
 
@@ -176,7 +203,7 @@ h1 {
     margin: 2rem 0 0 0;
     opacity: 0;
     animation: landingPageAnimation 3s ease forwards;
-    animation-delay: 0.5s;
+    animation-delay: .75s;
     animation-duration: 1200ms;
     border-radius: 50%;
     outline: 3px solid transparent;
@@ -200,7 +227,12 @@ h1 {
 .social {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 5rem;
+    justify-content: center;
+    opacity: 0;
+    animation: landingPageAnimation 3s ease forwards;
+    animation-delay: 3s;
+    animation-duration: 1200ms;
 }
 
 
@@ -216,10 +248,11 @@ h1 {
 }
 
 .social-icon {
-    width: 40px;
-    height: 40px;
-    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    margin: 1.5rem 0;
     border-radius: 50px;
+    box-shadow: 0px 0px 4px var(--bg-secondary);
 }
 
 /* Perfil */
@@ -233,7 +266,7 @@ h1 {
     display: flex;
     opacity: 0;
     animation: landingPageAnimation 3s ease forwards;
-    animation-delay: 2.5s;
+    animation-delay: 3s;
     animation-duration: 1000ms;
     flex-direction: column;
 }
@@ -513,17 +546,19 @@ h1 {
         justify-content: center;
     }
 
-    .home-page  {
-        left: 12%;
-        top: 15%;
-    }
-
     .home-title {
         font-size: 36px;
+        font-weight: bold;
+        line-height: 1.2;
     }
     .home-subtitle {
         margin: 0;
-        font-size: 22px;
+        font-size: 30px;
+    }
+
+    .home-text {
+        font-size: 18px;
+        
     }
 
     .profile-img {
