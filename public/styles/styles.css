@@ -275,7 +275,7 @@ a {
     display: flex;
     opacity: 0;
     animation: landingPageAnimation 3s ease forwards;
-    animation-delay: 3s;
+    animation-delay: 2.5s;
     animation-duration: 1000ms;
     flex-direction: column;
 }
@@ -599,10 +599,16 @@ a {
         line-height: 1.2;
     }
 
+    .profile-subtitle {
+        font-size: 36px;
+      
+    }
+
     .profile-description {
         font-size: 20px;
         justify-content: left;
-        margin-top: 60%;
+        margin-top: 2rem;
+        
     }
     .profile-content {
         width:90%;
