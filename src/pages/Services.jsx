@@ -3,7 +3,7 @@ import Card from "../components/Card";
 
 function Services() {
     return (<>
-        <div>
+        <div className="services-page">
             <h3 className="profile-subtitle-service">Serviços</h3>
             <div className="wrapper">
                 <Card 
