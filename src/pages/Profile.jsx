@@ -18,26 +18,7 @@ function Profile() {
                     <p className="profile-content">Já se você quiser dar uma olhadinha no meu trabalho, dá uma olhada aqui no meu <a href="https://github.com/lukelupus" target="_blank" rel="noreferrer">portfólio</a> ou clica no gatinho aqui.</p> 
                     <a href="https://github.com/lukelupus" target="_blank" rel="noreferrer"><GitHubIcon className="profile-icon" /></a>
                     <p className="profile-content"> Atualmente trabalho com o MERN Stack: MongoDB, Express, React e Node.</p>
-                    <h3 className="profile-subtitle-service">Serviços</h3>
                 </div>
-            </div>
-            <div className="wrapper">
-                <Card 
-                    img="images/mefort.png"
-                    title="Site Pessoal"
-                    content="Meu site - O site que é tão lindo quanto você!"
-                />
-                <Card 
-                    img="images/tdog.png"
-                    title="Landing Page"
-                    content="Tindog - O App que é bom pra cachorro!"
-                />
-                <Card 
-                    img="images/todo-list.png"
-                    title="WebApp"
-                    content="Post-its virtuais - Agora não esqueço de comprar pão!"
-                />
-                
             </div>
         </div>
     </>)

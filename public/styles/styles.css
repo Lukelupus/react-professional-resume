@@ -284,10 +284,6 @@ a:hover {
 
 .profile-description {
     display: flex;
-    opacity: 0;
-    animation: landingPageAnimation 3s ease forwards;
-    animation-delay: 2.5s;
-    animation-duration: 1000ms;
     flex-direction: column;
 }
 
@@ -326,7 +322,7 @@ a:hover {
     font-size: 44px;
     opacity: 0;
     animation: landingPageAnimation 3s ease forwards;
-    animation-delay: 2s;
+    animation-delay: 1.75s;
     animation-duration: 1000ms;
 }
 
@@ -338,7 +334,7 @@ a:hover {
     opacity: 0;
     margin-left: 27.5%;
     animation: landingPageAnimation 3s ease forwards;
-    animation-delay: 2.5s;
+    animation-delay: 2s;
     animation-duration: 1000ms;
 }
 
@@ -348,20 +344,14 @@ a:hover {
     font-size: 36px;
     opacity: 0;
     animation: landingPageAnimation 3s ease forwards;
-    animation-delay: 3.5s;
+    animation-delay: 2.5s;
     animation-duration: 1000ms;
     color: var(--bg-secondary);
     font-size: 48px;
 
 }
 
-.profile-page .wrapper {
-    opacity: 0;
-    animation: landingPageAnimation 3s ease forwards;
-    animation-delay: 3s;
-    animation-duration: 1000ms;
 
-}
 
 
 
@@ -433,11 +423,6 @@ a:hover {
 .skill-text {
     margin: 0;
     font-size: 22px;
-
-}
-
-.frontend {
-    
 
 }
 
@@ -595,8 +580,8 @@ a:hover {
     .profile-img {
         width: 120px;
         height: 120px;
-        left: 36%;
-        top: 1%;
+        left: 38.25%;
+        top: 1.5%;
         animation: profileImgMobile 1s ease-in forwards;
         animation-delay: 1s;
         animation-duration: 500ms;
@@ -625,7 +610,7 @@ a:hover {
         font-size: 20px;
         justify-content: center;
         align-items: center;
-        margin-top: 2rem;
+        margin: 2rem 0 6rem;
         
     }
     .profile-content {
