@@ -46,12 +46,6 @@ function Navbar() {
                         <span className="link-text">Serviços</span>
                     </Link>
                     </li>
-                    <li className="nav-item">
-                    <Link to="/contact" className="nav-link">
-                        <AlternateEmailIcon className="icon"/>
-                        <span className="link-text">Contato</span>
-                    </Link>
-                    </li>
                 </ul>
             </nav>
             

@@ -486,7 +486,9 @@ a:hover {
 /* Serviços */
 
 .servies-page {
-    z-index: 999;
+    
+    display: flex;
+    flex-direction: column;
 }
 
 .profile-subtitle-service {
@@ -500,6 +502,10 @@ a:hover {
     color: var(--bg-secondary);
     font-size: 48px;
 
+}
+
+.service-container {
+    display: block;
 }
 
 
@@ -655,15 +661,7 @@ a:hover {
         margin-bottom: 0;
     }
 
-    .wrapper {
-        position: absolute;
-        opacity: 0;
-        animation: landingPageAnimation 3s ease forwards;
-        animation-delay: 1s;
-        animation-duration: 1000ms;
-    
-        
-    }
+
 
   
 
