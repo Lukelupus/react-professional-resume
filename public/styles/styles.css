@@ -60,6 +60,16 @@ a {
     text-decoration: none;
 }
 
+
+a:visited {
+    color: var(--bg-secondary);
+}
+
+a:hover {
+    color: white;
+}
+
+
 /* Navbar */
 
 .navbar {
@@ -117,6 +127,7 @@ a {
     margin: 0 1.5rem;
     transition: 200ms ease;
 }
+
 
 .logo {
     font-weight: bold;
@@ -358,10 +369,17 @@ a {
 
 .skill-page {
     margin-top: 0;
+    align-items: center;
+    justify-content: center;
 }
 
-.skill-page .wrapper {
-    margin-top: 0;
+.skill-page .h1 {
+    align-items: center;
+}
+
+.skill-column {
+    align-items: center;
+    justify-content: center;
 }
 .skill-heading {
     font-size: 56px;
@@ -380,6 +398,7 @@ a {
     align-items: left;
     justify-content: center;
     gap: 2rem;
+    margin: 0 0 3rem 3rem;
  
 }
 
@@ -515,10 +534,6 @@ a {
     100% {left:10%;}
   }
 
-@keyframes mobileIcon {
-    0%   {background-color: black;}
-    100% {background-color: var(--bg-secondary);}
-  }
 
 
 /* Design Responsivo */
@@ -530,10 +545,7 @@ a {
     main {
         margin:0
     }
-    .profile-icon-mobile {
-        animation: mobileIcon 1s ease-in forwards;
-        animation-delay: 3.5s;
-    }
+
 
     .navbar {
         bottom: 0;
@@ -575,11 +587,16 @@ a {
         
     }
 
+    .profile-icon {
+       transform:scale(2.2);
+       margin: 1.5rem 0;
+    }
+
     .profile-img {
         width: 120px;
         height: 120px;
         left: 36%;
-        top: 2%;
+        top: 1%;
         animation: profileImgMobile 1s ease-in forwards;
         animation-delay: 1s;
         animation-duration: 500ms;
@@ -606,7 +623,8 @@ a {
 
     .profile-description {
         font-size: 20px;
-        justify-content: left;
+        justify-content: center;
+        align-items: center;
         margin-top: 2rem;
         
     }
@@ -627,6 +645,8 @@ a {
     .skills {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .skill-heading {
@@ -636,11 +656,11 @@ a {
 
     .wrapper {
         position: absolute;
-        margin-top: 25rem;
         opacity: 0;
         animation: landingPageAnimation 3s ease forwards;
-        animation-delay: 2.5s;
+        animation-delay: 1s;
         animation-duration: 1000ms;
+    
         
     }
 
