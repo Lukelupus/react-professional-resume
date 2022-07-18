@@ -1,6 +1,5 @@
 import React from "react";
 import {Link} from "react-router-dom"
-import Card from "../components/Card";
 import GitHubIcon from '@mui/icons-material/GitHub';
 
 function Profile() {

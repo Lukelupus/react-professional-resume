@@ -1,4 +1,5 @@
 import React from "react"
+import HomeIcon from '@mui/icons-material/Home';
 import PersonIcon from '@mui/icons-material/Person';
 import PreviewIcon from '@mui/icons-material/Preview';
 import CodeIcon from '@mui/icons-material/Code';
@@ -20,6 +21,12 @@ function Navbar() {
                             <KeyboardDoubleArrowRightIcon className="icon logo-icon" />
                             <span className="logo-text link-text">Lucas Botelho</span>
                         </Link>
+                    </li>
+                    <li className="nav-item profile-icon-mobile">
+                    <Link to="/" className="nav-link">
+                       <HomeIcon className="icon "/>
+                        <span className="link-text">Perfil</span>
+                    </Link>
                     </li>
                     <li className="nav-item profile-icon-mobile">
                     <Link to="/profile" className="nav-link">
