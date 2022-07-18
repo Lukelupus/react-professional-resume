@@ -583,7 +583,7 @@ a:hover {
         left: 38.25%;
         top: 1.5%;
         animation: profileImgMobile 1s ease-in forwards;
-        animation-delay: 1s;
+        animation-delay: 0.5s;
         animation-duration: 500ms;
 
     }
