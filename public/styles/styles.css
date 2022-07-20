@@ -49,7 +49,7 @@ main {
 
 }
 
-h1 {
+h1,h2 {
     color: var(--bg-secondary);
     margin: 0;
 }
@@ -485,10 +485,17 @@ a:hover {
 
 /* Serviços */
 
-.servies-page {
+.services-page {
     
     display: flex;
     flex-direction: column;
+    margin-bottom: 6rem;
+}
+
+.services-page .social {
+    animation: none;
+    opacity: 1;
+    margin-bottom: 3rem;
 }
 
 .profile-subtitle-service {
@@ -505,9 +512,26 @@ a:hover {
 }
 
 .service-container {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 2rem;
+    gap: 2rem;
 }
 
+.service-img {
+    object-fit: contain;
+    width: 50%;
+    align-items: left;
+    margin: 1rem;
+
+}
+
+.services-page .wrapper {
+    opacity: 0;
+    animation: landingPageAnimation 3s ease forwards;
+    animation-delay: .85s;
+    animation-duration: 1000ms;
+}
 
 
 /* Animações */

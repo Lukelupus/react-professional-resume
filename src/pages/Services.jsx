@@ -27,19 +27,46 @@ function Services() {
                 />
                 
             </div>
-            <div  className="service-container" >
+            <div className="service-detail">
                 <h2 id="landing-page">Landing Page</h2>
-                <img className="service-img" src="images/tdog.png" alt="landing page aterrisagem"></img>
-            </div>
-            <div className="service-container">
-                <h2 id="professional-site">Site Profissional</h2>
-                <img className="service-img" src="images/mefort.png" alt="site web profissional"></img>
+                <a href="https://lukelupus.github.io/TinDog-Real/" target="_blank" rel="noopener noreferrer"><img className="service-img" src="images/tdog.png" alt="landing page aterrisagem"></img></a>
                 
-            </div>
-            <div className="service-container">
+                <div  className="service-container" >
+                    <p className="service-info">Afinal, porquê você iria querer uma página de aterrisagem? Bom, são exatamente essas páginas que atraem e captam clientes potenciais para seu serviço ou empresa!</p>
+                    <p className="service-info">Sua empresa, negócio, marca ou até você podem ter essa ferramente eficiente para conversão de novos clientes! Pra dá uma olhadinha em um exemplo de landing page feita por mim é só clicar na imagem!</p>
+                </div>
+                <h2 id="professional-site">Site Profissional</h2>
+                <a href="https://stark-taiga-49270.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="service-img" src="images/professional-site.png" alt="site web profissional"></img></a>
+                <div className="service-container">
+                    <p className="service-info"></p>
+                </div>
                 <h2 id="online-store">Site de Vendas</h2>
-                <img className="service-img" src="images/todo-list.png" alt="venda compra loja virtual"></img>
+                <a href="https://calm-savannah-08177.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="service-img" src="images/todo-list.png" alt="venda compra loja virtual"></img></a>
+                <div className="service-container">
+                <p className="service-info"></p> 
+                </div>
+                <h2> Ainda com dúvida? Me chama pra um papo em qualquer uma das redes abaixo:</h2>
             </div>
+            <div className="social">
+                    <a 
+                        className="float"
+                        href="https://www.linkedin.com/in/lucas-moreira-botelho-18298715b/"
+                        target="_blank"
+                        rel="noopener noreferrer"><img className="social-icon" src="https://seeklogo.com/images/L/linkedin-icon-logo-05B2880899-seeklogo.com.png" alt="linkedin"></img>
+                    </a>
+                    <a 
+                        target="_blank"
+                        className="float"
+                        href="https://www.instagram.com/luke.boti.lorken/?hl=en"
+                        rel="noopener noreferrer"><img className="social-icon" src="https://seeklogo.com/images/I/instagram-new-2016-logo-D9D42A0AD4-seeklogo.com.png" alt="instagram"></img>
+                    </a>
+                    <a 
+                        target="_blank"
+                        className="float"
+                        href="https://api.whatsapp.com/send?phone=5531991820805&text=Olá%20Lucas"
+                        rel="noopener noreferrer"><img className="social-icon" src="https://seeklogo.com/images/W/whatsapp-icon-logo-BDC0A8063B-seeklogo.com.png" alt="whatsapp"></img>
+                    </a>
+                </div>
         </div>
         
     </>)
