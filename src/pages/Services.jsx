@@ -38,12 +38,15 @@ function Services() {
                 <h2 id="professional-site">Site Profissional</h2>
                 <a href="https://stark-taiga-49270.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="service-img" src="images/professional-site.png" alt="site web profissional"></img></a>
                 <div className="service-container">
-                    <p className="service-info"></p>
+                    <p className="service-info">Um site profissional é essencial para sua empresa ou para prestações de serviço! Desta forma você ficará visível em pesquisas online, vai poder disponibilizar um espaço para detalhar seu trabalho, mostrar sua equipe e o porquê é sensacional trabalhar com você!</p>
+                    <p className="service-info">Um site profissional também é um local para colocar seu curriculo para que recrutadores ou outros colaboradores possam ter um acesso a você e todo o seu potencial! Clica ali na imagem para ver como pode ficar legal!</p>
                 </div>
-                <h2 id="online-store">Site de Vendas</h2>
+                <h2 id="online-store">Aplicativos de Web</h2>
                 <a href="https://calm-savannah-08177.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="service-img" src="images/todo-list.png" alt="venda compra loja virtual"></img></a>
                 <div className="service-container">
-                <p className="service-info"></p> 
+                    <p className="service-info">Quer fazer uma listinha online ou um muro de post-its com a sua cara?</p>
+                    <p className="service-info">Essa ferramente é essencial para você que tem apenas 1.389.356.761 coisas para fazer e lembrar todos os dias em seu trabalho ou dia-a-dia!</p>
+                    <p className="service-info">Se você se vê todo dia em frente do computador e precisa daqueles lembretes fáceis com um design bonito feito só para você, vamo bater um papo!</p>
                 </div>
                 <h2> Ainda com dúvida? Me chama pra um papo em qualquer uma das redes abaixo:</h2>
             </div>
