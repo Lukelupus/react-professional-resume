@@ -298,12 +298,12 @@ p {
     display: flex;
     flex-direction: column;
     margin-left: 2rem;
-    padding-top: 50px;
+    padding-top: 3.125em;
 }
 
 .profile-title {
     margin-left: 8%;
-    font-size: 60px;
+    font-size: 3.75em;
     opacity: 0;
     animation: landingPageAnimation 3s ease forwards;
     animation-delay: 1.5s;
@@ -314,7 +314,7 @@ p {
 .profile-subtitle {
   
     margin: 0 0 2rem 6rem;
-    font-size: 44px;
+    font-size: 2.75em;
     opacity: 0;
     animation: landingPageAnimation 3s ease forwards;
     animation-delay: 1.75s;
@@ -765,10 +765,10 @@ p {
     }
     .wrapper {
         grid-template-columns: repeat(auto-fit, minmax(14rem, 16rem));
-        
-
+      
     }
 
+    
     .card {
         flex-direction: column;
         text-align: center;
