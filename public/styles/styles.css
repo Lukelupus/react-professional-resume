@@ -3,9 +3,9 @@
     font-size: 16;
     font-family: 'Montserrat', sans-serif;
     --text-primary: #BCBAB8;
-    --text-secondary: #F9F9F9;
+    --text-secondary: #203239;
     --bg-primary: black;
-    --bg-secondary: #9D8F8F;
+    --bg-secondary: #EEEDDE;
     --transition-speed: 600ms;
     --heights: 50vh;
     --widths: 100%;
@@ -322,7 +322,7 @@ p {
 
 
 .profile-content {
-    color: var(--text-secondary);
+    color: var(--bg-secondary);
     font-size: 22px;
     width: 50%;
     opacity: 0;
