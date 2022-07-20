@@ -1,6 +1,6 @@
 
 :root {
-    font-size: 16px;
+    font-size: 16;
     font-family: 'Montserrat', sans-serif;
     --text-primary: #BCBAB8;
     --text-secondary: #F9F9F9;
@@ -59,18 +59,7 @@ p {
 
 }
 
-a {
-    text-decoration: none;
-}
 
-
-a:visited {
-    color: var(--bg-secondary);
-}
-
-a:hover {
-    color: white;
-}
 
 
 /* Navbar */
@@ -121,8 +110,7 @@ a:hover {
 
 .link-text {
     display: none;
-    margin-left: 1rem;
-    font-size: 22px;
+    font-size: 22wrapp;
 }
 
 .icon {
@@ -137,13 +125,15 @@ a:hover {
     text-transform: uppercase;
     margin-bottom: 1rem;
     text-align: center;
-    color: var(--text-secondary);
+    align-items: center;
     background: var(--bg-secondary);
+    color: var(--text-secondary);
     font-size: 1.5rem;
-    letter-spacing: 0.3ch;
+    letter-spacing: 0.1ch;
     width: 100%;
 
 }
+
 
 .logo .logo-icon {
     transform: rotate(0deg);
@@ -158,6 +148,8 @@ a:hover {
 .logo-text {
     margin: 0 2rem 0 0;
     text-align: left;
+ 
+    
  
 }
 
@@ -221,8 +213,8 @@ a:hover {
 
 
 .lucas-img {
-    width: 120px;
-    height: 120px;
+    width: 7.5em;
+    height: 7.5em;
     margin: 2rem 0 0 0;
     opacity: 0;
     animation: landingPageAnimation 3s ease forwards;
@@ -291,8 +283,8 @@ a:hover {
 }
 
 .profile-img {
-    width: 200px;
-    height: 200px;
+    width: 12.5em;
+    height: 12.5em;
     margin: 2rem 1rem 0 0;
     border-radius: 50%;
     outline: 3px solid transparent;
@@ -556,7 +548,7 @@ a:hover {
 }
 
 @keyframes profileImgLeft {
-    0%   {left: 46.70%;}
+    0%   {left: 0,452em;}
     100% {left:20%;}
   }
 
@@ -576,6 +568,15 @@ a:hover {
     main {
         margin:0
     }
+    
+    a:visited {
+    color: var(--bg-secondary);
+    }
+
+    a:hover {
+    color: white;
+    }
+
 
 
     .navbar {
@@ -624,8 +625,8 @@ a:hover {
     }
 
     .profile-img {
-        width: 120px;
-        height: 120px;
+        width: 7.5em;
+        height: 7.5em;
         left: 38.25%;
         top: 1.5%;
         animation: profileImgMobile 1s ease-in forwards;
@@ -664,7 +665,7 @@ a:hover {
         margin-left: 10px;
         padding-top: 10px;
     }
-  
+
     .profile-subtitle {
         margin: 0;
     }
@@ -699,17 +700,27 @@ a:hover {
         width: 100%;
         height: 50vh;
     }
+    .lucas-img {
+        width: 12.5em;
+        height: 12.5em;
+        margin: 0;
+      
+    }
     .home-page  {
-        left: 35%;
-        top: 15%;
+        left: 22%;
+        top: 22%;
+        width: 60%;
     }
     .home-subtitle {
         margin: 0 0 2rem;
-        font-size: 22px;
+        font-size: 2.375em;
     }
     .home-title {
         margin: 0;
-        font-size: 48px;
+        font-size: 3em;
+    }
+    .home-text {
+        display: none;
     }
     .navbar {
         top: 0;
@@ -726,14 +737,26 @@ a:hover {
         transition: opacity var(--transition-speed);
     }
     .profile-img {
-        width: 200px;
-        height: 200px;
+        width: 12.5em;
+        height: 12.5em;
         margin: 2rem 1rem 0 0;
         animation: profileImgLeft ease 3s forwards;
         animation-delay: 1s;
         animation-duration: 1200ms;
-        left: 46.70%;
-        top: 20%;
+        left: 45.2%;
+        top: 18%;
+    }
+
+    .profile-icon {
+        transform: scale(4.0);
+        margin: 2rem 0;
+        color: var(--bg-secondary);
+        padding-left: 1.5rem;
+        opacity: 0;
+        animation: landingPageAnimation ease 3s forwards;
+        animation-delay: 2s;
+        animation-duration: 1200ms;
+        
     }
     .wrapper {
         grid-template-columns: repeat(auto-fit, minmax(14rem, 16rem));

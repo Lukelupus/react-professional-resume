@@ -21,7 +21,7 @@ function Services() {
                 />
                 <Card 
                     img="images/todo-list.png"
-                    title="Loja Virtual"
+                    title="Web Apps!"
                     content="Quer fazer sua própria lojinha para venda de produtos ou serviços? Posso desenvolver sua UI/UX com sua identidade visual, carrinho de compras e textos com as palavras-chaves certas."
                     id="#online-store"
                 />

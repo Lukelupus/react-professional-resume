@@ -23,12 +23,6 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className="nav-item profile-icon-mobile">
-                    <Link to="/" className="nav-link">
-                       <HomeIcon className="icon "/>
-                        <span className="link-text">Perfil</span>
-                    </Link>
-                    </li>
-                    <li className="nav-item profile-icon-mobile">
                     <Link to="/profile" className="nav-link">
                        <PersonIcon className="icon "/>
                         <span className="link-text">Perfil</span>
@@ -44,6 +38,12 @@ function Navbar() {
                     <Link to="/services" className="nav-link">
                         <PreviewIcon className="icon" />
                         <span className="link-text">Serviços</span>
+                    </Link>
+                    </li>
+                    <li className="nav-item profile-icon-mobile">
+                    <Link to="/" className="nav-link">
+                       <HomeIcon className="icon "/>
+                        <span className="link-text">Home</span>
                     </Link>
                     </li>
                 </ul>
