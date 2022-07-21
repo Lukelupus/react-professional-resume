@@ -1,0 +1,803 @@
+
+:root {
+    font-size: 16;
+    font-family: 'Montserrat', sans-serif;
+    --text-primary: #BCBAB8;
+    --text-secondary: #203239;
+    --bg-primary: black;
+    --bg-secondary: #EEEDDE;
+    --transition-speed: 600ms;
+    --heights: 50vh;
+    --widths: 100%;
+}
+
+
+
+
+
+body {
+    color: white;
+    background: black;
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+    text-align: center;
+
+    
+    
+}
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--bg-secondary);
+}
+
+body.home .site-footer {
+    display: none;
+}
+
+main {
+    margin-left: 4rem;
+    transition: 1s ease;
+
+}
+
+h1,h2 {
+    color: var(--text-primary);
+    margin: 0;
+    font-weight: bold;
+}
+
+p {
+    margin: 0;
+
+}
+
+
+
+
+/* Navbar */
+
+.navbar {
+  
+    position: fixed;
+    background-color: var(--bg-primary);
+    transition: width 200ms ease;
+    z-index: 999;
+}
+
+
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-item {
+    width: 100%;
+}
+
+.nav-item:last-child {
+    margin-top: auto;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    color: var(--text-primary);
+    text-decoration: none;
+    filter: grayscale(100%) opacity(0.7) hue-rotate(0.5);
+    transition: var(--transition-speed);
+}
+
+.nav-link:hover {
+    filter: grayscale(0%) opacity(1);
+    background: var(--bg-secondary);
+    color: var(--text-secondary);
+}
+
+.link-text {
+    display: none;
+    font-size: 22wrapp;
+}
+
+.icon {
+    min-width: 2rem;
+    margin: 0 1.5rem;
+    transition: 200ms ease;
+}
+
+
+.logo {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-align: center;
+    align-items: center;
+    background: var(--bg-secondary);
+    color: var(--text-secondary);
+    letter-spacing: 0.1ch;
+    width: 100%;
+
+}
+
+
+.logo .logo-icon {
+    transform: rotate(0deg);
+    transition: transform var(--transition-speed);
+}
+
+.navbar:hover .logo .logo-icon {
+    transform: rotate(-180deg);
+}
+
+
+.logo-text {
+    margin: 0 2rem 0 0;
+    text-align: left;
+ 
+    
+ 
+}
+
+/* Home Presentation Card */
+
+.home-page {
+    position: absolute;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    top: 1.5%;
+    
+   
+
+}
+
+.landing-profile {
+    color: var(--bg-secondary);
+}
+
+.home-presentation-card {
+    
+    width: 80%;
+    margin-top: 0;
+    
+}
+
+.home-title {
+    margin-top: 0;
+    opacity: 0;
+    animation: landingPageAnimation 3s ease forwards;
+    animation-delay: 1.5s;
+    animation-duration: 1200ms;
+}
+
+
+.home-subtitle {
+    opacity: 0;
+    animation: landingPageAnimation 3s ease-in forwards;
+    animation-delay: 2s;
+    animation-duration: 1300ms;
+}
+
+.first {
+    opacity: 0;
+    animation: landingPageAnimation 3s ease-in forwards;
+    animation-delay: 2.5s;
+    animation-duration: 1300ms;
+}
+
+.second {
+    opacity: 0;
+    animation: landingPageAnimation 3s ease forwards;
+    animation-delay: 3s;
+    animation-duration: 1200ms;
+}
+
+
+
+.lucas-img {
+    width: 7.5em;
+    height: 7.5em;
+    margin: 2rem 0 0 0;
+    opacity: 0;
+    animation: landingPageAnimation 3s ease forwards;
+    animation-delay: .75s;
+    animation-duration: 1200ms;
+    border-radius: 50%;
+    outline: 3px solid transparent;
+    outline-color: var(--bg-secondary);
+    color: white;
+   
+
+}
+
+.landing-page-img {
+   
+    opacity: 0.4;
+    z-index: -999;
+    border: transparent;
+    border-image: 1px var(--transition-speed);
+ 
+}
+
+/* Botão Redes Sociais */
+
+.social {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content: center;
+    opacity: 0;
+    animation: landingPageAnimation 3s ease forwards;
+    animation-delay: 3.5s;
+    animation-duration: 1200ms;
+}
+
+
+.float {
+   
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    z-index: 100;
+    transform: scale(1.8);
+    margin: 0;
+    padding: 0;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin: 1.5rem 0;
+    border-radius: 50px;
+    box-shadow: 0px 0px 4px var(--bg-secondary);
+}
+
+/* Perfil */
+
+.profile-page {
+    margin-left: 6rem;
+    padding-top: 1rem;
+}
+
+.profile-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-img {
+    width: 12.5em;
+    height: 12.5em;
+    margin: 2rem 1rem 0 0;
+    border-radius: 50%;
+    outline: 3px solid transparent;
+    outline-color: var(--bg-secondary);
+    color: white;
+    position: absolute;
+    z-index: 999;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    padding-top: 3.125em;
+}
+
+.profile-title {
+    margin-left: 8%;
+    font-size: 3.75em;
+    opacity: 0;
+    animation: landingPageAnimation 3s ease forwards;
+    animation-delay: 1.5s;
+    animation-duration: 1000ms;
+    color: var(--text-primary);
+}
+
+.profile-subtitle {
+  
+    margin: 0 0 2rem 6rem;
+    font-size: 2.75em;
+    opacity: 0;
+    animation: landingPageAnimation 3s ease forwards;
+    animation-delay: 1.75s;
+    animation-duration: 1000ms;
+}
+
+
+.profile-content {
+    color: var(--bg-secondary);
+    font-size: 22px;
+    width: 50%;
+    opacity: 0;
+    margin-left: 27.5%;
+    animation: landingPageAnimation 3s ease forwards;
+    animation-delay: 2s;
+    animation-duration: 1000ms;
+}
+
+
+
+
+
+
+/* Skills */
+
+.skill-page {
+    margin-top: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-page .h1 {
+    align-items: center;
+}
+
+.skill-column {
+    align-items: center;
+    justify-content: center;
+}
+.skill-heading {
+    font-size: 56px;
+}
+.skills-card {
+    display: flex;
+    font-size: 28px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4rem;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 0 3rem 3rem;
+ 
+}
+
+.skill-subtopic {
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.skill-subtopic h1 {
+    font-size: 30px;
+}
+
+.skill-item {
+    justify-content: left;
+    align-items: left;
+    display: flex;
+    flex-direction: row;
+    margin: 1.5rem 0;
+    
+}
+
+.skill-icon {
+    min-width: 2rem;
+    margin: 0 1.5rem;
+    height: 60px;
+    width: 60px;
+
+}
+
+.skill-text {
+    margin: 0;
+    font-size: 22px;
+
+}
+
+
+
+/* Cards */
+
+.wrapper {
+    margin: 2rem;
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  
+}
+
+.card {
+    box-shadow: 0 0 2px 5px rgb(233, 223, 223);
+    border-radius: 0.2rem;
+    min-width: 28rem;
+    display: flex;
+}
+
+.card-img {
+    width: 11rem;
+    height: 24rem;
+    object-fit: cover;
+}
+
+.card-body {
+    margin: 1rem;
+}
+
+.card-title {
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.card-content {
+    line-height: 1.6rem;
+  
+}
+
+.card-price {
+    font-size: 1.4rem;
+    margin-top: 0.6rem;
+    color: var(--bg-secondary);
+    
+
+}
+
+.card-btn {
+    border: none;
+    border-top: 1px solid rgb(120, 120, 162);
+    background-color: transparent;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.card-btn:hover {
+    color: rgb(15, 15, 159);
+}
+
+
+/* Serviços */
+
+.services-page {
+    
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6rem;
+}
+
+.services-page .social {
+    animation: none;
+    opacity: 1;
+    margin: 1rem;
+}
+
+.profile-subtitle-service {
+    display: block;
+    padding-right: 100px;
+    font-size: 36px;
+    opacity: 0;
+    animation: landingPageAnimation 3s ease forwards;
+    animation-delay: .5s;
+    animation-duration: 1000ms;
+    color: var(--bg-secondary);
+    font-size: 48px;
+
+}
+
+.service-container {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    gap: 2rem;
+}
+
+.service-img {
+    object-fit: contain;
+    width: 50%;
+    align-items: left;
+    margin: 1rem;
+
+}
+
+.services-page .wrapper {
+    opacity: 0;
+    animation: landingPageAnimation 3s ease forwards;
+    animation-delay: .85s;
+    animation-duration: 1000ms;
+}
+
+
+/* Animações */
+@keyframes landingPageAnimation {
+    100% {
+        opacity: 1;
+        }
+  
+    
+}
+@keyframes landingPageAnimationText {
+    100% {
+        opacity: 1;
+        }
+    50% {
+        opacity: 0.5;
+        }
+    0% {
+        opacity: 0;
+        }
+    
+}
+
+@keyframes profileImgLeft {
+    0%   {left: 0,452em;}
+    100% {left:20%;}
+  }
+
+  @keyframes profileImgMobile {
+    0%   {left: 36%;}
+    100% {left:10%;}
+  }
+
+
+
+/* Design Responsivo */
+
+/* Telas de celulares: */
+
+@media only screen and (max-width: 600px) {
+
+    main {
+        margin:0
+    }
+    
+    a:visited {
+    color: var(--bg-secondary);
+    }
+
+    a:hover {
+    color: white;
+    }
+
+
+
+    .navbar {
+        bottom: 0;
+        width: 100vw;
+        height: 5rem;
+    }
+
+   .landing-page-img {
+    margin: 0;
+    height: fit-content;
+    width: 100%;
+    object-fit: contain;
+   } 
+
+    .logo {
+        display: none;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .nav-link {
+        justify-content: center;
+    }
+
+    .home-title {
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 1.2;
+    }
+    .home-subtitle {
+        margin: 1rem 0 0.75rem 0;
+        font-size: 32px;
+    }
+
+    .home-text {
+        font-size: 18px;
+        
+    }
+
+    .profile-icon {
+       transform:scale(2.2);
+       margin: 1.5rem 0;
+    }
+
+    .profile-img {
+        width: 7.5em;
+        height: 7.5em;
+        left: 38.25%;
+        top: 1.5%;
+        animation: profileImgMobile 1s ease-in forwards;
+        animation-delay: 0.5s;
+        animation-duration: 500ms;
+
+    }
+    .profile-page {
+       margin: 0;
+       padding: 0 1rem 0 0;
+
+    }
+
+
+    .profile-title {
+        font-size: 40px;
+        width: 50%;
+        margin-left: 10rem;
+        line-height: 1.2;
+    }
+
+    .profile-subtitle {
+        font-size: 36px;
+      
+    }
+
+    .profile-description {
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem 0 6rem;
+        
+    }
+    .profile-content {
+        width:90%;
+        margin-left: 10px;
+        padding-top: 10px;
+    }
+
+    .profile-subtitle {
+        margin: 0;
+    }
+
+    .profile-subtitle-service {
+        margin-left: 15%;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skill-heading {
+    
+        margin-bottom: 0;
+    }
+
+
+
+  
+
+
+}
+
+/* Telas de grandes: */
+
+@media only screen and (min-width: 600px) {
+
+ 
+
+    .landing-page-img {
+        width: 100%;
+        height: 50vh;
+    }
+    .lucas-img {
+        width: 12.5em;
+        height: 12.5em;
+        margin: 0;
+      
+    }
+    .home-page  {
+        left: 22%;
+        top: 22%;
+        width: 60%;
+    }
+    .home-subtitle {
+        margin: 0 0 2rem;
+        font-size: 2.375em;
+    }
+    .home-title {
+        margin: 0;
+        font-size: 3em;
+    }
+    .home-text {
+        display: none;
+    }
+    .navbar {
+        top: 0;
+        width: 5rem;
+        height: 100vh;
+    }
+
+    .navbar:hover {
+        width: 16rem;
+    }
+    
+    .navbar:hover .link-text {
+        display: block;
+        transition: opacity var(--transition-speed);
+    }
+    .profile-img {
+        width: 12.5em;
+        height: 12.5em;
+        margin: 2rem 1rem 0 0;
+        animation: profileImgLeft ease 3s forwards;
+        animation-delay: 1s;
+        animation-duration: 1200ms;
+        left: 45.2%;
+        top: 18%;
+    }
+
+    .profile-icon {
+        position: absolute;
+        transform: scale(7.0);
+        color: var(--bg-secondary);
+        left: 26%;
+        top: 75%;
+        opacity: 0;
+        animation: landingPageAnimation ease 3s forwards;
+        animation-delay: 2s;
+        animation-duration: 1200ms;
+    
+        
+    }
+    .wrapper {
+        grid-template-columns: repeat(auto-fit, minmax(14rem, 16rem));
+      
+    }
+
+    
+    .card {
+        flex-direction: column;
+        text-align: center;
+        min-width: 14rem;
+       ;
+    }
+
+    .card-img {
+        width: 100%;
+        height: 12em;
+    }
+
+    .service-title {
+        font-size: 3.5em;
+        font-weight: bold;
+    }
+
+    .service-info {
+        font-size: 1.5em;
+        width: 80%;
+    }
+
+    .service-container {
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    
+
+
+}
