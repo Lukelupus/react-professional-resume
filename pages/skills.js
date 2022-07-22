@@ -1,7 +1,9 @@
 import React from "react";
+import Navbar from "./components/Navbar";
 
 function Skills() {
     return (<>
+     <Navbar />
         <div className="skill-page">
             <h1 className="skill-heading">Habilidades</h1>
             <div className="wrapper">
