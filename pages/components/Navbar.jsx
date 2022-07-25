@@ -19,35 +19,40 @@ function Navbar() {
                 <ul className="navbar-nav">
                     <li className="logo">
                         <div className="nav-link">
-                        <KeyboardDoubleArrowRightIcon className="icon logo-icon" />
                         <Link href="/">
-                            <span className="logo-text link-text">Lucas Botelho</span>
+                            <KeyboardDoubleArrowRightIcon className="icon logo-icon" />
+                        </Link>
+                        <Link href="/">
+                            <a className="logo-text link-text">Lucas Botelho</a>
                         </Link>
                         </div>
                     </li>
                     <li className="nav-item profile-icon-mobile">
                     <div  className="nav-link">
-                       <PersonIcon className="icon "/>
-                       <Link href="/profile"><span className="link-text">Perfil</span></Link>
+                        <Link href="/profile"> 
+                            <PersonIcon className="icon "/>
+                        </Link>
+                        <Link href="/profile">
+                            <a className="link-text">Perfil</a>
+                        </Link>
                     </div>
                     </li>
                     <li className="nav-item">
                     <div  className="nav-link">
-                        <CodeIcon className="icon" />
-                        <Link href="/skills"><span className="link-text">Habilidades</span></Link>
+                        <Link href="/skills"><CodeIcon className="icon" /></Link>
+                        <Link href="/skills"><a className="link-text">Habilidades</a></Link>
                     </div>
                     </li>
                     <li className="nav-item">
                     <div  className="nav-link">
-                        <PreviewIcon className="icon" />
-                        <Link href="/crie-seu-site"><span className="link-text">Serviços</span></Link>
-                        
+                        <Link href="/crie-seu-site"><PreviewIcon className="icon" /></Link>
+                        <Link href="/crie-seu-site"><a className="link-text">Serviços</a></Link>
                     </div>
                     </li> 
                     <li className="nav-item profile-icon-mobile">
                     <div className="nav-link">
-                    <HomeIcon className="icon "/>
-                    <Link href="/" ><span className="link-text">Home</span></Link>
+                    <Link href="/" ><HomeIcon className="icon "/></Link>
+                    <Link href="/" ><a className="link-text">Home</a></Link>
                     </div>
                     </li>
                 </ul>

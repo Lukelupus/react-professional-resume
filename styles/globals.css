@@ -1,16 +1,70 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+* {
+  box-sizing: border-box;
 }
+
+
+:root {
+  font-size: 16;
+  font-family: 'Montserrat', sans-serif;
+  --text-primary: #BCBAB8;
+  --text-secondary: #203239;
+  --bg-primary: black;
+  --bg-secondary: #EEEDDE;
+  --transition-speed: 600ms;
+  --heights: 50vh;
+  --widths: 100%;
+}
+
+
+body {
+  color: white;
+  background: black;
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+  text-align: center;
+
+  
+  
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--bg-secondary);
+}
+
+body.home .site-footer {
+  display: none;
+}
+
+main {
+  margin-left: 4rem;
+  transition: 1s ease;
+
+}
+
+h1,h2 {
+  color: var(--text-primary);
+  margin: 0;
+  font-weight: bold;
+}
+
+p {
+  margin: 0;
+
+}
+
 
 a {
   color: inherit;
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
-}

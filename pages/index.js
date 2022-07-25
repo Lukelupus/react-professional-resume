@@ -4,14 +4,14 @@ import Navbar from "./components/Navbar"
 
 
 
+
 function App() {
 
 
 
   return (<>
-    
       <Navbar />
-      <main>
+     
       <div className="home-page">
             <img className="lucas-img" src="images/merussia-modified.png" alt="fullstack web developer"/>
             <div className="home-presentation-card">
@@ -44,8 +44,7 @@ function App() {
         <img className="landing-page-img" alt="scotland-street-art" src="images/white-blue.jpeg"/>
 
         
-      </main>
-      
+        
     
     </>);
 }
