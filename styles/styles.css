@@ -60,7 +60,13 @@ p {
 
 }
 
+a {
+    text-decoration: none;
+}
 
+a:visited {
+    color: var(--text-primary);
+}
 
 
 /* Navbar */
@@ -111,7 +117,12 @@ p {
 
 .link-text {
     display: none;
-    font-size: 22wrapp;
+  
+}
+
+.link-text:hover {
+    filter: grayscale(0%) opacity(1);
+    color: var(--bg-primary);
 }
 
 .icon {
