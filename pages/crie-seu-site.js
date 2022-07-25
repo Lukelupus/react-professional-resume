@@ -15,19 +15,19 @@ function Services() {
             <div className="wrapper">
             
                 <Card 
-                    img="images/tdog.png"
+                    img="images/tdog-min.png"
                     title="Landing Page"
                     content="Páginas de aterrisagem são aquelas com elementos voltados a aumentar a sua taxa de conversão e crescer o seu negócio! Alguns elementos deste serviço contêm imagens impactantes, botões Call to Action e/ou formulários."
                     id="#landing-page"
                 />
                     <Card 
-                    img="images/professional-site.png"
+                    img="images/professional-site-min.png"
                     title="Site Profissional"
                     content="O futuro é a internet e o futuro, é hoje. Coloque sua empresa, seu perfil profissional ou pessoal online! Crie a sua página inicial, a sessão 'Sobre Nós' e contato! Clica em Saiba Mais para um orçamento."
                     id="#professional-site"
                 />
                 <Card 
-                    img="images/todo-list.png"
+                    img="images/todo-list-min.png"
                     title="Web Apps!"
                     content="Quer fazer sua própria lojinha para venda de produtos ou serviços? Posso desenvolver sua UI/UX com sua identidade visual, carrinho de compras e textos com as palavras-chaves certas."
                     id="#online-store"
@@ -36,7 +36,7 @@ function Services() {
             </div>
             <div className="service-detail">
                 <h2 id="landing-page" className="service-title">Landing Page</h2>
-                <a href="https://lukelupus.github.io/TinDog-Real/" target="_blank" rel="noopener noreferrer"><img className="service-img" src="images/tdog.png" alt="landing page aterrisagem"></img></a>
+                <a href="https://lukelupus.github.io/TinDog-Real/" target="_blank" rel="noopener noreferrer"><img className="service-img" src="images/tdog-min.png" alt="landing page SEO minha"></img></a>
                 
                 <div  className="service-container" >
                     <p className="service-info">Afinal, porquê você iria querer uma página de aterrisagem? Bom, são exatamente essas páginas que atraem e captam clientes potenciais para seu serviço ou empresa!</p>
@@ -44,14 +44,14 @@ function Services() {
                 </div>
                 <hr></hr>
                 <h2 id="professional-site" className="service-title">Site Profissional</h2>
-                <a href="https://stark-taiga-49270.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="service-img" src="images/professional-site.png" alt="site web profissional"></img></a>
+                <a href="https://stark-taiga-49270.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="service-img" src="images/professional-site-min.png" alt="site web profissional empresarial pessoal"></img></a>
                 <div className="service-container">
                     <p className="service-info">Um site profissional é essencial para sua empresa ou para prestações de serviço! Desta forma você ficará visível em pesquisas online, vai poder disponibilizar um espaço para detalhar seu trabalho, mostrar sua equipe e o porquê é sensacional trabalhar com você!</p>
                     <p className="service-info">Um site profissional também é um local para colocar seu curriculo para que recrutadores ou outros colaboradores possam ter um acesso a você e todo o seu potencial! Clica ali na imagem para ver como pode ficar legal!</p>
                 </div>
                 <hr></hr>
                 <h2 id="online-store" className="service-title">Aplicativos de Web</h2>
-                <a href="https://calm-savannah-08177.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="service-img" src="images/todo-list.png" alt="venda compra loja virtual"></img></a>
+                <a href="https://calm-savannah-08177.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="service-img" src="images/todo-list-min.png" alt="venda compra loja virtual"></img></a>
                 <div className="service-container">
                     <p className="service-info">Quer fazer uma listinha online ou um muro de post-its com a sua cara?</p>
                     <p className="service-info">Essa ferramente é essencial para você que tem apenas 1.389.356.761 coisas para fazer e lembrar todos os dias em seu trabalho ou dia-a-dia!</p>

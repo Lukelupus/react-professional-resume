@@ -14,7 +14,7 @@ function Profile() {
             <div className="profile-card">
                 <h1 className="profile-title">Oi, eu sou o Lucas</h1>
                 <a to="/">
-                    <img className="profile-img" src="images/merussia-modified.png" alt="fullstack web developer"/>
+                    <img className="profile-img" src="images/merussia-modified-min.png" alt="fullstack web developer"/>
                 </a>
                 <div className="profile-description">
                     <h3 className="profile-subtitle">Um Desenvolvedor FullStack</h3>

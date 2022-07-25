@@ -16,7 +16,7 @@ function App() {
         <title>Lucas Moreira Botelho - Desenvolvedor de Web</title>
       </Head>
       <div className="home-page">
-            <img className="lucas-img" src="images/merussia-modified.png" alt="fullstack web developer"/>
+            <img className="lucas-img" src="images/merussia-modified-min.png" alt="fullstack web developer"/>
             <div className="home-presentation-card">
                 <h1 className="home-title">Lucas Moreira Botelho</h1>
                 <h3 className="home-subtitle">Desenvolvedor</h3>
@@ -44,7 +44,7 @@ function App() {
                     </a>
                 </div>
         </div>
-        <img className="landing-page-img" alt="scotland-street-art" src="images/white-blue.jpeg"/>
+        <img className="landing-page-img" alt="scotland-street-art" src="images/white-blue-min.jpeg"/>
 
         
         

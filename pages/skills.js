@@ -46,7 +46,7 @@ function Skills() {
                                 <span className="skill-text">Node</span>
                             </li>
                             <li className="skill-item">
-                            <img className="skill-icon" src="images/express.png" alt="express"    />
+                            <img className="skill-icon" src="images/express-min.png" alt="express"    />
                                 <span className="skill-text">Express</span>
                             </li>
                     </div>
@@ -70,7 +70,7 @@ function Skills() {
                               <span className="skill-text">Heroku</span>
                         </li>
                         <li className="skill-item">
-                         <img className="skill-icon" src="images/next.png" alt="nextjs"    />
+                         <img className="skill-icon" src="images/next-min.png" alt="nextjs"    />
                               <span className="skill-text">Next.js</span>
                         </li>
                     </ul>
