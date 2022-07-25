@@ -1,10 +1,14 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import GitHubIcon from '@mui/icons-material/GitHub';
+import Head from "next/head";
 
 
 function Profile() {
     return (<>
+     <Head >
+        <title>Para Tech Recruiters: Quem é Lucas</title>
+      </Head>
      <Navbar />
           <div className="profile-page">
             <div className="profile-card">

@@ -1,8 +1,12 @@
 import React from "react";
 import Navbar from "./components/Navbar";
+import Head from "next/head";
 
 function Skills() {
     return (<>
+     <Head >
+        <title>Lucas Moreira Botelho: Habilidades Desenvolvedor de Web FullStack</title>
+      </Head>
      <Navbar />
         <div className="skill-page">
             <h1 className="skill-heading">Habilidades</h1>

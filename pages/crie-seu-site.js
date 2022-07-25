@@ -1,8 +1,14 @@
 import React from "react";
 import Card from "./components/Card";
 import Navbar from "./components/Navbar";
+import Head from "next/head";
+
+
 function Services() {
     return (<>
+     <Head >
+        <title>Seu próprio Site Profissional</title>
+      </Head>
         <Navbar />
         <div className="services-page">
             <h3 className="profile-subtitle-service">Serviços</h3>

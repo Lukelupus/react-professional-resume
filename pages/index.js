@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar"
+import Head from "next/head"
 
 
 
@@ -11,7 +12,9 @@ function App() {
 
   return (<>
       <Navbar />
-     
+      <Head >
+        <title>Lucas Moreira Botelho - Desenvolvedor de Web</title>
+      </Head>
       <div className="home-page">
             <img className="lucas-img" src="images/merussia-modified.png" alt="fullstack web developer"/>
             <div className="home-presentation-card">
