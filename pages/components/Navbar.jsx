@@ -40,7 +40,7 @@ function Navbar() {
                     <li className="nav-item">
                     <div  className="nav-link">
                         <PreviewIcon className="icon" />
-                        <Link href="/services"><span className="link-text">Serviços</span></Link>
+                        <Link href="/crie-seu-site"><span className="link-text">Serviços</span></Link>
                         
                     </div>
                     </li> 

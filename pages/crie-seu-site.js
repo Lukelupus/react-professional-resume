@@ -1,8 +1,9 @@
 import React from "react";
 import Card from "./components/Card";
-
+import Navbar from "./components/Navbar";
 function Services() {
     return (<>
+        <Navbar />
         <div className="services-page">
             <h3 className="profile-subtitle-service">Serviços</h3>
             <div className="wrapper">

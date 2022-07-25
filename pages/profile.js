@@ -1,10 +1,11 @@
 import React from "react";
-
+import Navbar from "./components/Navbar";
 import GitHubIcon from '@mui/icons-material/GitHub';
 
 
 function Profile() {
     return (<>
+     <Navbar />
           <div className="profile-page">
             <div className="profile-card">
                 <h1 className="profile-title">Oi, eu sou o Lucas</h1>
