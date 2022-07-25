@@ -248,6 +248,9 @@ p {
     animation: landingPageAnimation 3s ease forwards;
     animation-delay: 3.5s;
     animation-duration: 1200ms;
+    margin-top: 10%;
+    
+
 }
 
 
@@ -425,14 +428,14 @@ p {
 .card {
     box-shadow: 0 0 2px 5px rgb(233, 223, 223);
     border-radius: 0.2rem;
-    min-width: 28rem;
     display: flex;
+    min-width: auto;
 }
 
 .card-img {
     width: 11rem;
     height: 24rem;
-    object-fit: cover;
+    object-fit:cover;
 }
 
 .card-body {

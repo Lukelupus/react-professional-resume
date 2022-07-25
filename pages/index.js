@@ -19,7 +19,8 @@ function App() {
                 <h3 className="home-subtitle">Desenvolvedor</h3>
                 <p className="home-text first">Quer criar seu site pessoal, empresarial ou página de aterrisagem? Clica na minha aba de serviços!</p>
                 <p className="home-text second">Mas se você quiser só me conhecer, clica no meu <a to="/profile" className="landing-profile">perfil</a>!</p>
-                <div className="social">
+            </div>
+            <div className="social">
                     <a 
                         className="float"
                         href="https://www.linkedin.com/in/lucas-moreira-botelho-18298715b/"
@@ -39,7 +40,6 @@ function App() {
                         rel="noopener noreferrer"><img className="social-icon" src="https://seeklogo.com/images/W/whatsapp-icon-logo-BDC0A8063B-seeklogo.com.png" alt="whatsapp"/>
                     </a>
                 </div>
-            </div>
         </div>
         <img className="landing-page-img" alt="scotland-street-art" src="images/white-blue.jpeg"/>
 
