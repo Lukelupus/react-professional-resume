@@ -708,6 +708,16 @@ a:visited {
 
 }
 
+@media only screen and (max-height: 800px){
+    .home-text {
+        font-size: 14px;
+    }
+
+    .home-title {
+        font-size: 18px;
+    }
+}
+
 /* Telas de grandes: */
 
 @media only screen and (min-width: 600px) {
