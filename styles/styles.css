@@ -195,7 +195,7 @@ a:visited {
     margin-top: 0;
     opacity: 0;
     animation: landingPageAnimation 3s ease forwards;
-    animation-delay: 1.5s;
+    animation-delay: 1s;
     animation-duration: 1200ms;
 }
 
@@ -203,21 +203,21 @@ a:visited {
 .home-subtitle {
     opacity: 0;
     animation: landingPageAnimation 3s ease-in forwards;
-    animation-delay: 2s;
+    animation-delay: 1.5s;
     animation-duration: 1300ms;
 }
 
 .first {
     opacity: 0;
     animation: landingPageAnimation 3s ease-in forwards;
-    animation-delay: 2.5s;
+    animation-delay: 2s;
     animation-duration: 1300ms;
 }
 
 .second {
     opacity: 0;
     animation: landingPageAnimation 3s ease forwards;
-    animation-delay: 3s;
+    animation-delay: 2.5s;
     animation-duration: 1200ms;
 }
 
@@ -229,7 +229,7 @@ a:visited {
     margin: 2rem 0 0 0;
     opacity: 0;
     animation: landingPageAnimation 3s ease forwards;
-    animation-delay: .75s;
+    animation-delay: .5s;
     animation-duration: 1200ms;
     border-radius: 50%;
     outline: 3px solid transparent;
@@ -567,7 +567,7 @@ a:visited {
   }
 
   @keyframes profileImgMobile {
-    0%   {left: 36%;}
+    0%   {left: 34%;}
     100% {left:10%;}
   }
 
@@ -641,7 +641,7 @@ a:visited {
     .profile-img {
         width: 7.5em;
         height: 7.5em;
-        left: 38.25%;
+        left: 34%;
         top: 1.5%;
         animation: profileImgMobile 1s ease-in forwards;
         animation-delay: 0.5s;
