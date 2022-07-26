@@ -39,7 +39,7 @@ function Services() {
                 <a href="https://lukelupus.github.io/TinDog-Real/" target="_blank" rel="noopener noreferrer"><img className="service-img" src="images/tdog-min.png" alt="landing page SEO minha"></img></a>
                 
                 <div  className="service-container" >
-                    <p className="service-info">Afinal, porquê você iria querer uma página de aterrisagem? Bom, são exatamente essas páginas que atraem e captam clientes potenciais para seu serviço ou empresa!</p>
+                    <p className="service-info">Afinal, porquê você iria querer uma página de aterrisagem? Porquê o mundo hoje em dia é virtual. A capacidade do seu crescimento pessoal ou empresarial é ilimitada na internet! Com a utilização de SEOs garanta que seu serviço será o primeiro ofertado pelo Google!</p>
                     <p className="service-info">Sua empresa, negócio, marca ou até você podem ter essa ferramente eficiente para conversão de novos clientes! Pra dá uma olhadinha em um exemplo de landing page feita por mim é só clicar na imagem!</p>
                 </div>
                 <hr></hr>
