@@ -317,8 +317,8 @@ a:visited {
 }
 
 .profile-title {
-    margin-left: 8%;
-    font-size: 3.75em;
+    margin-left: 20%;
+    font-size: 2.75em;
     opacity: 0;
     animation: landingPageAnimation 3s ease forwards;
     animation-delay: 1.5s;
@@ -328,8 +328,8 @@ a:visited {
 
 .profile-subtitle {
   
-    margin: 0 0 2rem 6rem;
-    font-size: 2.75em;
+    margin: 0 0 2rem 15rem;
+    font-size: 1.75em;
     opacity: 0;
     animation: landingPageAnimation 3s ease forwards;
     animation-delay: 1.75s;
@@ -339,13 +339,14 @@ a:visited {
 
 .profile-content {
     color: var(--bg-secondary);
-    font-size: 22px;
+    font-size: 1em;
     width: 50%;
     opacity: 0;
-    margin-left: 27.5%;
+    margin: 1em  0 2em 35%;
     animation: landingPageAnimation 3s ease forwards;
     animation-delay: 2s;
     animation-duration: 1000ms;
+    gap: 3rem;
 }
 
 
@@ -370,11 +371,11 @@ a:visited {
     justify-content: center;
 }
 .skill-heading {
-    font-size: 56px;
+    font-size: 2.75em;
 }
 .skills-card {
     display: flex;
-    font-size: 28px;
+    font-size: 1.25em;
     align-items: center;
     justify-content: center;
     margin-right: 4rem;
@@ -398,7 +399,7 @@ a:visited {
 }
 
 .skill-subtopic h1 {
-    font-size: 30px;
+    font-size: 1.5em;
 }
 
 .skill-item {
@@ -420,7 +421,7 @@ a:visited {
 
 .skill-text {
     margin: 0;
-    font-size: 22px;
+    font-size: 1.25em;
 
 }
 
@@ -446,7 +447,7 @@ a:visited {
 
 .card-img {
     width: 11rem;
-    height: 24rem;
+    height: 36rem;
     object-fit:cover;
 }
 
@@ -460,7 +461,8 @@ a:visited {
 }
 
 .card-content {
-    line-height: 1.6rem;
+    line-height: 2rem;
+    font-size: .9em;
   
 }
 
@@ -508,13 +510,13 @@ a:visited {
 .profile-subtitle-service {
     display: block;
     padding-right: 100px;
-    font-size: 36px;
+    font-size: 2em;
     opacity: 0;
     animation: landingPageAnimation 3s ease forwards;
     animation-delay: .5s;
     animation-duration: 1000ms;
     color: var(--bg-secondary);
-    font-size: 48px;
+   
 
 }
 
@@ -620,17 +622,17 @@ a:visited {
     }
 
     .home-title {
-        font-size: 40px;
+        font-size: 2em;
         font-weight: bold;
         line-height: 1.2;
     }
     .home-subtitle {
         margin: 1rem 0 0.75rem 0;
-        font-size: 32px;
+        font-size: 1.75em;
     }
 
     .home-text {
-        font-size: 18px;
+        font-size: 0.925em;
         
     }
 
@@ -657,19 +659,19 @@ a:visited {
 
 
     .profile-title {
-        font-size: 40px;
+        font-size: 2em;
         width: 50%;
         margin-left: 10rem;
         line-height: 1.2;
     }
 
     .profile-subtitle {
-        font-size: 36px;
+        font-size: 1.85em;
       
     }
 
     .profile-description {
-        font-size: 20px;
+        font-size: 1.15em;
         justify-content: center;
         align-items: center;
         margin: 2rem 0 6rem;
@@ -741,14 +743,14 @@ a:visited {
     }
     .home-subtitle {
         margin: 0 0 2rem;
-        font-size: 2.375em;
+        font-size: 1.5em;
     }
     .home-title {
         margin: 0;
-        font-size: 3em;
+        font-size: 1.75em;
     }
     .home-text {
-        display: none;
+        font-size: 1em;
     }
     .navbar {
         top: 0;
@@ -788,6 +790,8 @@ a:visited {
     
         
     }
+
+
     .wrapper {
         grid-template-columns: repeat(auto-fit, minmax(14rem, 16rem));
       
@@ -807,12 +811,12 @@ a:visited {
     }
 
     .service-title {
-        font-size: 3.5em;
+        font-size: 2.5em;
         font-weight: bold;
     }
 
     .service-info {
-        font-size: 1.5em;
+        font-size: .9em;
         width: 80%;
     }
 

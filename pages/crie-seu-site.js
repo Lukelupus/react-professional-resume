@@ -23,18 +23,20 @@ function Services() {
                     <Card 
                     img="images/professional-site-min.png"
                     title="Site Profissional"
-                    content="O futuro é a internet e o futuro, é hoje. Coloque sua empresa, seu perfil profissional ou pessoal online! Crie a sua página inicial, a sessão 'Sobre Nós' e contato! Clica em Saiba Mais para um orçamento."
+                    content="O futuro é a internet e o futuro, é hoje. Coloque sua empresa, seu perfil profissional ou pessoal online! Vamos juntos pensar no número de páginas e nas palavras chaves para otimização de busca! Ficou curioso? Clica em Saiba Mais para um orçamento."
                     id="#professional-site"
                 />
                 <Card 
                     img="images/todo-list-min.png"
                     title="Web Apps!"
-                    content="Quer fazer sua própria lojinha para venda de produtos ou serviços? Posso desenvolver sua UI/UX com sua identidade visual, carrinho de compras e textos com as palavras-chaves certas."
+                    content="Quer fazer uma listinha virtual para seu inventário, compras ou apenas para não esquecer das responsabilidades? Talvez sua própria lojinha para venda de produtos ou serviços? Vamos juntos fazer o seu app, aquele que é a sua cara e você pode chamar de seu!"
                     id="#online-store"
                 />
-                
+         
             </div>
+            
             <div className="service-detail">
+            <hr></hr>
                 <h2 id="landing-page" className="service-title">Landing Page</h2>
                 <a href="https://lukelupus.github.io/TinDog-Real/" target="_blank" rel="noopener noreferrer"><img className="service-img" src="images/tdog-min.png" alt="landing page SEO minha"></img></a>
                 

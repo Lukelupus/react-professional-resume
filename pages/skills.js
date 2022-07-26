@@ -40,7 +40,7 @@ function Skills() {
                     </ul>
                     <ul className="skill-subtopic">
                     <div className="skill-column">
-                        <h1 className="backend">Backend-End</h1>
+                        <h1 className="backend">Back-End</h1>
                             <li className="skill-item">
                             <img className="skill-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs"    />
                                 <span className="skill-text">Node</span>
