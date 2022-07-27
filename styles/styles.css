@@ -735,9 +735,12 @@ a:visited {
         height: auto;
     }
 
-    .lucas-img .profile-img {
-        border: translateZ(0);
-        outline-color: none;
+    .lucas-img  {
+        
+        outline: none;
+    }
+    .profile-img {
+        outline: none;
     }
 }
 
