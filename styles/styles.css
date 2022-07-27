@@ -9,6 +9,8 @@
     --transition-speed: 600ms;
     --heights: 50vh;
     --widths: 100%;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
 }
 
 
@@ -722,7 +724,7 @@ a:visited {
 
 /* IOS Safari */ 
 
-@supports (-webkit-touch-callout: none;) {
+@supports (-webkit-touch-callout: none) {
     .landing-page-img {
         height: auto;
     }
