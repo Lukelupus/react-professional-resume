@@ -17,13 +17,13 @@ function Services() {
                 <Card 
                     img="images/tdog-min.png"
                     title="Landing Page"
-                    content="Páginas de aterrisagem são aquelas com elementos voltados a aumentar a sua taxa de conversão e crescer o seu negócio! Alguns elementos deste serviço contêm imagens impactantes, botões Call to Action e/ou formulários."
+                    content="Landing Pages - ou Páginas de aterrisagem - são aquelas com elementos voltados a captar mais clientes ou 'leads' e aumentar a sua taxa de conversão! Isso devido a mecanismos que direcionem as ferramentas de pesquisa diretamente para você!"
                     id="#landing-page"
                 />
                     <Card 
                     img="images/professional-site-min.png"
                     title="Site Profissional"
-                    content="O futuro é a internet e o futuro, é hoje. Coloque sua empresa, seu perfil profissional ou pessoal online! Vamos juntos pensar no número de páginas e nas palavras chaves para otimização de busca! Ficou curioso? Clica em Saiba Mais para um orçamento."
+                    content="O futuro é a internet e o futuro, é hoje. Este tipo de serviço utiliza-se de várias páginas que deixam migalhas para seus visitantes! Estas visam mantê-los o mais tempo possível para que conheçam você, sua equipe, serviços e sua marca!"
                     id="#professional-site"
                 />
                 <Card 
@@ -36,28 +36,29 @@ function Services() {
             </div>
             
             <div className="service-detail">
-            <hr></hr>
+            
                 <h2 id="landing-page" className="service-title">Landing Page</h2>
                 <a href="https://lukelupus.github.io/TinDog-Real/" target="_blank" rel="noopener noreferrer"><img className="service-img" src="images/tdog-min.png" alt="landing page SEO minha"></img></a>
                 
                 <div  className="service-container" >
-                    <p className="service-info">Afinal, porquê você iria querer uma página de aterrisagem? Porquê o mundo hoje em dia é virtual. A capacidade do seu crescimento pessoal ou empresarial é ilimitada na internet! Com a utilização de SEOs garanta que seu serviço será o primeiro ofertado pelo Google!</p>
-                    <p className="service-info">Sua empresa, negócio, marca ou até você podem ter essa ferramente eficiente para conversão de novos clientes! Pra dá uma olhadinha em um exemplo de landing page feita por mim é só clicar na imagem!</p>
+                    <p className="service-info">Afinal, porque você iria querer uma página de aterrisagem? Porque o mundo hoje em dia é virtual inclusive, clientes. Esse tipo de página é voltado completamente a conversão de ‘leads’, ou seja, a captação de um público que você não alcançaria se não fosse pela imensidão da internet! Isso porque neste oceano digital a sua capacidade do seu crescimento pessoal ou empresarial é ilimitada.</p>
+                    <p className="service-info">Mas como isso funciona? Bem, existem mecanismos que tem como alvo os Search Engine Optimization – ou SEOs – que atuam como grandes bandeiras vermelhas, bem chamativas para o algoritmo de pesquisa digital, como o Google! Eles vão desde o título da sua landing page a até palavras chave que ficam ali, escondidas por dentre o código! Um exemplo é a imagem acima! Ela possui letras grandes, chamativas! Se você visitar a página, vai ver também um botão chamativo e uma imagem que não deixa dúvidas sobre o que o serviço se trata!</p>
+                    <p className="service-info">Se você ficou curioso, me chama em um dos meus links ali embaixo da página e vamos conversar!</p>
                 </div>
                 <hr></hr>
                 <h2 id="professional-site" className="service-title">Site Profissional</h2>
                 <a href="https://stark-taiga-49270.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="service-img" src="images/professional-site-min.png" alt="site web profissional empresarial pessoal"></img></a>
                 <div className="service-container">
-                    <p className="service-info">Um site profissional é essencial para sua empresa ou para prestações de serviço! Desta forma você ficará visível em pesquisas online, vai poder disponibilizar um espaço para detalhar seu trabalho, mostrar sua equipe e o porquê é sensacional trabalhar com você!</p>
-                    <p className="service-info">Um site profissional também é um local para colocar seu curriculo para que recrutadores ou outros colaboradores possam ter um acesso a você e todo o seu potencial! Clica ali na imagem para ver como pode ficar legal!</p>
+                    <p className="service-info">Um site profissional é essencial para sua empresa ou para prestações de serviço! Este serviço, diferente das landing pages, não se resumem a apenas uma página! Este é um local que você pretende manter os seus visitantes pelo máximo de tempo. Um site só seu deve ser atrativo, contar histórias e deixar migalhas para que o seu público possa conhecer todo o seu conteúdo, além de ser uma parte viva da sua empresa ou persona! Isso porque é desejável que seus visitantes voltem e vejam sempre as novidades que seu site lindo possui!</p>
+                    <p className="service-info">Além disto, é uma forma você ficará visível no mundo online! Com este serviço você pode comunicar com seu público, detalhar seu trabalho, mostrar sua equipe e o porquê é sensacional trabalhar com você, além de divulgar tudo de novo que você e marca possuem!</p>
+                    <p className="service-info">Um site profissional também é um local para colocar seu currículo para seus pares te conhecerem melhor a visualizarem todo o seu potencial! Clica ali na imagem para ver como pode ficar legal!</p>
                 </div>
                 <hr></hr>
                 <h2 id="online-store" className="service-title">Aplicativos de Web</h2>
                 <a href="https://calm-savannah-08177.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="service-img" src="images/todo-list-min.png" alt="venda compra loja virtual"></img></a>
                 <div className="service-container">
                     <p className="service-info">Quer fazer uma listinha online ou um muro de post-its com a sua cara?</p>
-                    <p className="service-info">Essa ferramente é essencial para você que tem apenas 1.389.356.761 coisas para fazer e lembrar todos os dias em seu trabalho ou dia-a-dia!</p>
-                    <p className="service-info">Se você se vê todo dia em frente do computador e precisa daqueles lembretes fáceis com um design bonito feito só para você, vamo bater um papo!</p>
+                    <p className="service-info">Essa ferramente é essencial para você que tem apenas 1.389.356.761 coisas para fazer e lembrar todos os dias em seu trabalho ou dia-a-dia! Se você se vê todo dia em frente do computador e precisa daqueles lembretes fáceis com um design bonito feito só para você, vamo bater um papo!</p>
                 </div>
                 <h2>Ainda com dúvida?</h2>
                 <h2> Me chama pra um papo em qualquer uma das redes abaixo:</h2>

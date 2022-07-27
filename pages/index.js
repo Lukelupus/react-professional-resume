@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar"
 import Head from "next/head"
+import Link from "next/link";
 
 
 
@@ -20,8 +21,8 @@ function App() {
             <div className="home-presentation-card">
                 <h1 className="home-title">Lucas Moreira Botelho</h1>
                 <h3 className="home-subtitle">Desenvolvedor</h3>
-                <p className="home-text first">Quer criar seu site pessoal, empresarial ou página de aterrisagem? Clica na minha aba de serviços!</p>
-                <p className="home-text second">Mas se você quiser só me conhecer, clica no meu <a to="/profile" className="landing-profile">perfil</a>!</p>
+                <p className="home-text first">Quer criar seu site pessoal, empresarial ou página de aterrisagem? Clique em <Link href="/crie-seu-site"><a><strong>serviços!</strong></a></Link></p>
+                <p className="home-text second">Mas se você quiser só me conhecer, clica no meu <Link href="/profile"><a><strong>perfil</strong></a></Link>!</p>
             </div>
             <div className="social">
                     <a 
