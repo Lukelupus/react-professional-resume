@@ -709,7 +709,9 @@ a:visited {
         margin-bottom: 0;
     }
 
-
+    .profile-wrapper {
+        display: none;
+    }
 
   
 

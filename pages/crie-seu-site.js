@@ -12,7 +12,7 @@ function Services() {
         <Navbar />
         <div className="services-page">
             <h3 className="profile-subtitle-service">Serviços</h3>
-            <div className="wrapper">
+            <div className="wrapper profile-wrapper">
             
                 <Card 
                     img="images/tdog-min.png"
