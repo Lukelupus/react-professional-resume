@@ -720,6 +720,14 @@ a:visited {
     }
 }
 
+/* IOS Safari */ 
+
+@supports (-webkit-touch-callout: none;) {
+    .landing-page-img {
+        height: auto;
+    }
+}
+
 /* Telas de grandes: */
 
 @media only screen and (min-width: 600px) {
