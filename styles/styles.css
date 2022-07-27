@@ -622,6 +622,10 @@ a:visited {
     .nav-link {
         justify-content: center;
     }
+    .nav-item:last-child {
+        display: none;
+    }
+    
 
     .home-title {
         font-size: 2em;
@@ -727,6 +731,11 @@ a:visited {
 @supports (-webkit-touch-callout: none) {
     .landing-page-img {
         height: auto;
+    }
+
+    .lucas-img .profile-img {
+        border: translateZ(0);
+        outline-color: none;
     }
 }
 

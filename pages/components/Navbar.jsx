@@ -3,6 +3,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import PersonIcon from '@mui/icons-material/Person';
 import PreviewIcon from '@mui/icons-material/Preview';
 import CodeIcon from '@mui/icons-material/Code';
+import CopyrightIcon from '@mui/icons-material/Copyright';
 import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
 import Link from "next/link";
 
@@ -24,6 +25,12 @@ function Navbar() {
                         <Link href="/">
                             <a className="logo-text link-text">Lucas Botelho</a>
                         </Link>
+                        </div>
+                    </li>
+                    <li className="nav-item profile-icon-mobile">
+                        <div className="nav-link">
+                            <Link href="/" ><HomeIcon className="icon "/></Link>
+                            <Link href="/" ><a className="link-text">Home</a></Link>
                         </div>
                     </li>
                     <li className="nav-item profile-icon-mobile">
@@ -50,8 +57,8 @@ function Navbar() {
                     </li> 
                     <li className="nav-item profile-icon-mobile">
                     <div className="nav-link">
-                    <Link href="/" ><HomeIcon className="icon "/></Link>
-                    <Link href="/" ><a className="link-text">Home</a></Link>
+                    <Link href="/" ><CopyrightIcon className="icon "/></Link>
+                    <Link href="/" ><a className="link-text">Copyright© 2022</a></Link>
                     </div>
                     </li>
                 </ul>
