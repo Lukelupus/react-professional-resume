@@ -6,6 +6,7 @@ import CodeIcon from '@mui/icons-material/Code';
 import CopyrightIcon from '@mui/icons-material/Copyright';
 import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
 import Link from "next/link";
+import { useRouter } from "next/router"
 
 
 
@@ -13,6 +14,10 @@ import Link from "next/link";
 
 
 function Navbar() {
+
+    const router = useRouter()
+
+
     return (<>
         <div className="nav-container">
             <nav className="navbar">
@@ -28,13 +33,13 @@ function Navbar() {
                         </div>
                     </li>
                     <li className="nav-item profile-icon-mobile">
-                        <div className="nav-link">
-                            <Link href="/" ><HomeIcon className="icon "/></Link>
+                        <div className={router.pathname === "/" ? "active nav-link" : "nav-link"}>
+                            <Link href="/" ><HomeIcon className="icon"/></Link>
                             <Link href="/" ><a className="link-text">Home</a></Link>
                         </div>
                     </li>
                     <li className="nav-item profile-icon-mobile">
-                    <div  className="nav-link">
+                    <div  className={router.pathname === "/profile" ? "active nav-link" : "nav-link"}>
                         <Link href="/profile"> 
                             <PersonIcon className="icon "/>
                         </Link>
@@ -44,13 +49,13 @@ function Navbar() {
                     </div>
                     </li>
                     <li className="nav-item">
-                    <div  className="nav-link">
+                    <div  className={router.pathname === "/skills" ? "active nav-link" : "nav-link"}>
                         <Link href="/skills"><CodeIcon className="icon" /></Link>
                         <Link href="/skills"><a className="link-text">Habilidades</a></Link>
                     </div>
                     </li>
                     <li className="nav-item">
-                    <div  className="nav-link">
+                    <div  className={router.pathname === "/crie-seu-site" ? "active nav-link" : "nav-link"}>
                         <Link href="/crie-seu-site"><PreviewIcon className="icon" /></Link>
                         <Link href="/crie-seu-site"><a className="link-text">Serviços</a></Link>
                     </div>
